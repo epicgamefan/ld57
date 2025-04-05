@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "fac6d32c-4438-498d-b41a-703155e2c5c6",
+  "name": "QRCode",
+  "symbol": "bg_qrcode",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "QRCode.png",
+  "tileColors": ""
+}

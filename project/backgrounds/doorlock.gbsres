@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "72a809c2-ce49-4701-962e-e214601cd48b",
+  "name": "DoorLock",
+  "symbol": "bg_doorlock",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "DoorLock.png",
+  "tileColors": ""
+}
