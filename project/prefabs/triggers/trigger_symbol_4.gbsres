@@ -2,6 +2,19 @@
   "_resourceType": "triggerPrefab",
   "id": "a9c1665d-e968-4c27-baa0-d70e0065f690",
   "name": "trigger_symbol_4",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "90ebf7f3-d456-4a97-8c8b-4b2d71a50e27",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "8ff81a57-c328-4045-8045-d4ab095227d7"
+    }
+  ],
   "leaveScript": []
 }

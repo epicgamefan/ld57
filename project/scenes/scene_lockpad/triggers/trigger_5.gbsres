@@ -6,7 +6,31 @@
   "x": 9,
   "y": 8,
   "symbol": "trigger_22",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "315aa023-678c-47eb-bdb2-81988e53a465": {
+      "id": "315aa023-678c-47eb-bdb2-81988e53a465",
+      "args": {
+        "variable": "T0",
+        "value": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "T0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        }
+      }
+    },
+    "b89633ad-23d9-4ec8-8c01-5664aa0533e0": {
+      "id": "b89633ad-23d9-4ec8-8c01-5664aa0533e0",
+      "args": {
+        "variable": "T0"
+      }
+    }
+  },
   "width": 1,
   "height": 1,
   "script": [],

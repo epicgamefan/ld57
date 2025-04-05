@@ -15,6 +15,21 @@
       "id": "2",
       "name": "current_room",
       "symbol": "var_current_room"
+    },
+    {
+      "id": "3",
+      "name": "keypad_press_count",
+      "symbol": "var_keypad_press_count"
+    },
+    {
+      "id": "4",
+      "name": "keypad_open",
+      "symbol": "var_keypad_open"
+    },
+    {
+      "id": "5",
+      "name": "keypad_code_failed",
+      "symbol": "var_keypad_code_failed"
     }
   ]
 }
