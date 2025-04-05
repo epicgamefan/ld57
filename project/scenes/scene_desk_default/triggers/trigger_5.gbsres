@@ -6,7 +6,17 @@
   "x": 6,
   "y": 6,
   "symbol": "trigger_10",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "85e67679-a20a-4380-9e8b-8a862ab6254f": {
+      "id": "85e67679-a20a-4380-9e8b-8a862ab6254f",
+      "args": {
+        "text": [
+          "It looks like a journal entry...",
+          "Day 1: .... §¢£¥"
+        ]
+      }
+    }
+  },
   "width": 1,
   "height": 2,
   "script": [],
