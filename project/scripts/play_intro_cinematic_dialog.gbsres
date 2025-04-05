@@ -18,10 +18,10 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "6",
-        "choices": 4,
-        "__collapseCase0": false,
+        "choices": 5,
+        "__collapseCase0": true,
         "value0": 1,
-        "__collapseCase1": false,
+        "__collapseCase1": true,
         "value1": 2,
         "__collapseCase2": false,
         "value2": 3,
@@ -51,7 +51,8 @@
         "value14": 15,
         "__collapseCase15": false,
         "value15": 16,
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true0": [
@@ -59,7 +60,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "In the distant \nfuture stupidity is\npunishable by law."
+                "You have been\nbrought before",
+                "this tribunal\ntoday because of",
+                "your dissension\nagainst the",
+                "Council of the\nBrotherhood."
               ],
               "__section": "text",
               "avatarId": "",
@@ -94,8 +98,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2",
-              "__collapse": true
+              "fadeSpeed": 1,
+              "__collapse": false
             },
             "id": "9f2ac957-7569-49f0-97d6-b88d459bef23"
           }
@@ -105,10 +109,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You are guilty...",
-                "Your are banished \nto the deep state.",
-                "For a durarion of\n",
-                "Up to but not \ngreater than \neternity."
+                "From the\nperspective of the",
+                "Council of the\nBrotherhood..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -126,7 +128,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "b4f4f02d-7ff5-4f4f-98ce-e059e3549849"
           },
@@ -143,8 +145,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2",
-              "__collapse": true
+              "fadeSpeed": 1,
+              "__collapse": false
             },
             "id": "8c2012b6-e11b-47a1-ada4-3930f3e90ea3"
           }
@@ -154,8 +156,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "But, I just locked \nmy self out of my\nhouse.",
-                "I had a spare key."
+                "No due process\nwill be necessary."
               ],
               "__section": "text",
               "avatarId": "",
@@ -189,8 +190,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2",
-              "__collapse": true
+              "fadeSpeed": 1,
+              "__collapse": false
             },
             "id": "7ae04744-99bf-4390-9437-c8146813fcf1"
           }
@@ -200,9 +201,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Your still guilty.... \n",
-                "An act of \nintelligence \ndoes not make up\n",
-                "for an act of \nstupidity."
+                "You are hereby\nsentenced to be",
+                "banished to \nTHE\nDEPTH.",
+                "This inescapable\nchamber in the far",
+                "reaches of the\nEarth will be",
+                "your new prison."
               ],
               "__section": "text",
               "avatarId": "",
@@ -224,6 +227,55 @@
             "id": "4c8c3873-4dad-4e28-8967-d34079957716"
           },
           {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "bb50b8e1-b230-4632-9a2b-2d7856fe0543",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1,
+              "__collapse": true
+            },
+            "id": "21de755d-ce66-400f-ad39-b8b0264e4e35"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The good Doctor\nMarvin Moreau will",
+                "surely be good to\nlearn of your \narrival.",
+                "He probably has\nnot seen another",
+                "human being for\nquite some time..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "f788f966-470f-4b06-b03d-d04318cb066c"
+          },
+          {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
@@ -231,7 +283,6 @@
             "id": "c5426c86-0fa4-48bd-b48d-03c30b9e440a"
           }
         ],
-        "true4": [],
         "true5": [],
         "true6": [],
         "true7": [],
