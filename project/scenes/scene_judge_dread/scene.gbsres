@@ -20,7 +20,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "1a8dc4b7-084e-4c8e-aa25-3e8d0a176b31",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "049b6b70-6ff1-4349-bc87-e77780b06b28"
     },
@@ -28,7 +28,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "34821057-30cb-4bed-aa40-51da3beec655",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "3aa445ab-8f15-4b86-99b6-ca0aaed4de86"
     }
