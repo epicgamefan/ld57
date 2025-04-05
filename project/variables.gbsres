@@ -50,6 +50,11 @@
       "id": "9",
       "name": "visited_lockpad_scene",
       "symbol": "var_visited_lockpad_scene"
+    },
+    {
+      "id": "10",
+      "name": "key_aquired",
+      "symbol": "var_key_aquired"
     }
   ]
 }
