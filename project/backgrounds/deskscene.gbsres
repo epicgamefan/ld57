@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b58b973e-9001-4376-80d1-300c2d33a311",
+  "name": "DeskScene",
+  "symbol": "bg_deskscene",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "DeskScene.png",
+  "tileColors": ""
+}

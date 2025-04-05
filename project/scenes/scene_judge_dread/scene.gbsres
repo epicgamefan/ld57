@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "22be7685-8159-4d9e-8c62-b1e6236ef607",
+  "_index": 1,
+  "name": "scene_judge_dread",
+  "backgroundId": "efb23e19-dd50-401a-8954-60304a9d0cd6",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 232,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

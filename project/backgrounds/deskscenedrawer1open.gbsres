@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e2f7b507-e24e-4dbe-87ad-5ae8f45dfe12",
+  "name": "DeskSceneDrawer1Open",
+  "symbol": "bg_deskscenedrawer1open",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "DeskSceneDrawer1Open.png",
+  "tileColors": ""
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "15a1b596-b950-4f35-9b91-941980cbf4f9",
+  "name": "Defendant",
+  "symbol": "bg_defendant",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Defendant.png",
+  "tileColors": ""
+}

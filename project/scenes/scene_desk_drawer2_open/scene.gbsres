@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "85c720cc-3999-4204-a819-86f722dbeb53",
+  "_index": 4,
+  "name": "scene_desk_drawer2_open",
+  "backgroundId": "e6482f4d-f810-4dc0-846f-a0e8fe1ea6db",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 400,
+  "y": 208,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
