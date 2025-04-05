@@ -61,7 +61,7 @@
         "__collapseCase3": false,
         "value3": 4,
         "__collapseCase4": false,
-        "value4": 6,
+        "value4": 5,
         "__collapseCase5": false,
         "value5": 6,
         "__collapseCase6": false,
@@ -103,20 +103,44 @@
                   "value": 2
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": false
             },
             "children": {
               "true": [
                 {
-                  "command": "EVENT_SET_VALUE",
+                  "command": "EVENT_IF",
                   "args": {
-                    "variable": "5",
-                    "value": {
-                      "type": "true"
+                    "condition": {
+                      "type": "ne",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "3"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 4
+                      }
                     },
-                    "__collapse": true
+                    "__collapseElse": true
                   },
-                  "id": "6890c898-e507-4796-932b-52ac28acc590"
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "5",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "8ee2553c-ffa0-44ee-ae3e-cd2b49167a5f"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "8a4c4206-1d2e-4e6b-9f7c-64cd74951551"
                 }
               ],
               "false": []
@@ -126,38 +150,15 @@
         ],
         "true1": [
           {
-            "command": "EVENT_IF",
+            "command": "EVENT_SET_VALUE",
             "args": {
-              "condition": {
-                "type": "ne",
-                "valueA": {
-                  "type": "variable",
-                  "value": "3"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 5
-                }
+              "variable": "5",
+              "value": {
+                "type": "true"
               },
-              "__collapseElse": true
+              "__collapse": true
             },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "5",
-                    "value": {
-                      "type": "true"
-                    },
-                    "__collapse": true
-                  },
-                  "id": "11d689c9-2f82-4941-a317-fd09eef46b08"
-                }
-              ],
-              "false": []
-            },
-            "id": "ba973b56-1fb7-49fc-98c1-d040eab9e8c4"
+            "id": "11d689c9-2f82-4941-a317-fd09eef46b08"
           }
         ],
         "true2": [
@@ -244,7 +245,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 4
+                  "value": 5
                 }
               },
               "__collapseElse": true
