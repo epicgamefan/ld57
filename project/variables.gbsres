@@ -1,4 +1,15 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "desk_drawer_1_open",
+      "symbol": "var_desk_drawer_1_open"
+    },
+    {
+      "id": "1",
+      "name": "desk_drawer_2_open",
+      "symbol": "var_desk_drawer_2_open"
+    }
+  ]
 }

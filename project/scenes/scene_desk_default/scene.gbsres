@@ -10,7 +10,7 @@
   "type": "POINTNCLICK",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 64,

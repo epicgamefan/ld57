@@ -1,0 +1,18 @@
+{
+  "_resourceType": "script",
+  "id": "1669f465-f453-483b-8e22-10f1b3d7589f",
+  "name": "initialize_game",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_RESET_VARIABLES",
+      "args": {
+        "__collapse": false
+      },
+      "id": "f2eca2e0-1974-496d-bc6d-3df86d465321"
+    }
+  ]
+}

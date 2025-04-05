@@ -13,9 +13,53 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
-  "x": 232,
+  "x": 304,
   "y": 30,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1a8dc4b7-084e-4c8e-aa25-3e8d0a176b31",
+        "__collapse": true
+      },
+      "id": "049b6b70-6ff1-4349-bc87-e77780b06b28"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "TBD...",
+          "More TBD...",
+          "And More TBD..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "9876ea2e-57c6-4d2e-91e8-188dc974f3e4"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
+      },
+      "id": "08112e31-6bb4-4b3a-86b0-4ea6aa46ec92"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

@@ -1,0 +1,27 @@
+{
+  "_resourceType": "script",
+  "id": "1a8dc4b7-084e-4c8e-aa25-3e8d0a176b31",
+  "name": "enter_cinematic_scene",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "player",
+        "__collapse": true
+      },
+      "id": "e6e8ca58-41cb-4204-8587-ecb95bef73ff"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2",
+        "__collapse": true
+      },
+      "id": "9a233fd1-22ff-4a9f-8020-a6972c02e6e1"
+    }
+  ]
+}
