@@ -15,7 +15,67 @@
   "symbol": "scene_3",
   "x": 64,
   "y": 208,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "8"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "What is the place?",
+                "Its like some one \nwas here before me.",
+                "I don't see any \none. I think I'm \nall alone."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a300fafa-5e44-4c5a-9ff1-b39ea6adb24d"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "8",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "bf6f8bab-eba7-487b-9b98-45d1d1cd1cd9"
+          }
+        ],
+        "false": []
+      },
+      "id": "e99ca833-adaa-4783-8ed1-18a7733a7d67"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

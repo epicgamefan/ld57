@@ -13,6 +13,16 @@
         "__collapse": false
       },
       "id": "f2eca2e0-1974-496d-bc6d-3df86d465321"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "c11de3c0-f245-4eac-9e13-2fd460ff507e"
     }
   ]
 }

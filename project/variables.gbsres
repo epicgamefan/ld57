@@ -30,6 +30,21 @@
       "id": "5",
       "name": "keypad_code_failed",
       "symbol": "var_keypad_code_failed"
+    },
+    {
+      "id": "6",
+      "name": "intro_cinematic_state",
+      "symbol": "var_intro_cinematic_state"
+    },
+    {
+      "id": "7",
+      "name": "game_initialized",
+      "symbol": "var_game_initialized"
+    },
+    {
+      "id": "8",
+      "name": "visited_desk_scene",
+      "symbol": "var_visited_desk_scene"
     }
   ]
 }
