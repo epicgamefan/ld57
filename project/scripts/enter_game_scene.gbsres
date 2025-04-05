@@ -1,0 +1,27 @@
+{
+  "_resourceType": "script",
+  "id": "11926b8c-ee7f-44e7-9036-268f4addb988",
+  "name": "enter_game_scene",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "__collapse": true
+      },
+      "id": "53cb4a78-3d85-4c64-b920-ee6b791d2299"
+    }
+  ]
+}

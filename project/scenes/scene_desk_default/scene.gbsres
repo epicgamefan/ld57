@@ -17,6 +17,13 @@
   "y": 208,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
+      },
+      "id": "ce7f0584-29bd-4254-8005-f10298e8cbbf"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {

@@ -33,7 +33,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -87,8 +87,8 @@
                       "value": 0
                     },
                     "direction": "",
-                    "fadeSpeed": "2",
-                    "__collapse": true
+                    "fadeSpeed": 1,
+                    "__collapse": false
                   },
                   "id": "c071895d-f395-4076-a24e-1c184dc1fed7"
                 }
@@ -107,8 +107,8 @@
                       "value": 0
                     },
                     "direction": "",
-                    "fadeSpeed": "2",
-                    "__collapse": true
+                    "fadeSpeed": 1,
+                    "__collapse": false
                   },
                   "id": "9e463ad2-424a-40cf-8415-31b53c29f4c9"
                 }
