@@ -45,6 +45,11 @@
       "id": "8",
       "name": "visited_desk_scene",
       "symbol": "var_visited_desk_scene"
+    },
+    {
+      "id": "9",
+      "name": "visited_lockpad_scene",
+      "symbol": "var_visited_lockpad_scene"
     }
   ]
 }

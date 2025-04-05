@@ -26,6 +26,65 @@
         }
       },
       "id": "f81a9e2f-4c78-440d-83d5-a7365dbc9d00"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "9"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Interesting...\nI've never seen\nanything like it.",
+                "This lock has \n6 strange \nsymbols.",
+                "I wonder what\nthey mean."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "476f0fd1-fea0-4395-864c-3181c2984fca"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "9",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": false
+            },
+            "id": "b9c27a8e-8851-4070-981e-adc62138f728"
+          }
+        ],
+        "false": []
+      },
+      "id": "59c7d043-0f22-45fd-911b-1140828b01b7"
     }
   ],
   "playerHit1Script": [],
