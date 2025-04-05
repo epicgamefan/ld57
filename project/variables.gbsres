@@ -10,6 +10,11 @@
       "id": "1",
       "name": "desk_drawer_2_open",
       "symbol": "var_desk_drawer_2_open"
+    },
+    {
+      "id": "2",
+      "name": "current_room",
+      "symbol": "var_current_room"
     }
   ]
 }

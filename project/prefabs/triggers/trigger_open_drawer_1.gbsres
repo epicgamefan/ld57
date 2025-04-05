@@ -1,0 +1,35 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "fb4d531e-9299-4d38-8843-f42390a035ad",
+  "name": "trigger_open_drawer_1",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "7c893d0d-ab0f-4f22-8b97-d69b728d4d4b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "f63666e9-5c9f-4e7b-8302-897d33850d3e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
+      },
+      "id": "dff53125-89c8-453d-8afe-1b1b2a91f775"
+    }
+  ],
+  "leaveScript": []
+}

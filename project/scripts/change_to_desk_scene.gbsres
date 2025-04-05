@@ -8,6 +8,18 @@
   "symbol": "script_3",
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "bbb15577-c604-446f-baf6-c6bb06abcf30"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {

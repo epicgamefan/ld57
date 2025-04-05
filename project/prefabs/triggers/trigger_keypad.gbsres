@@ -1,0 +1,33 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "03397343-7c94-44e6-a05a-360b5cbede77",
+  "name": "trigger_keypad",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "a keypad with symbols on it"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "649b96c2-b3f3-4bb2-bcd0-5c846a911d8b"
+    }
+  ],
+  "leaveScript": []
+}
