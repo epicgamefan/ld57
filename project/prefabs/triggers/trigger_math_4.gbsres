@@ -1,0 +1,19 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "9922596f-5b94-4bcc-a901-f8e7d555a93b",
+  "name": "trigger_math_4",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "c85e1a18-b584-40d6-8e91-65842f461b33",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "be9666ba-9914-4985-974e-112440356b01"
+    }
+  ],
+  "leaveScript": []
+}

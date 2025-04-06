@@ -110,6 +110,31 @@
       "id": "21",
       "name": "key_2_aquired",
       "symbol": "var_key_2_aquired"
+    },
+    {
+      "id": "22",
+      "name": "math_safe_opened",
+      "symbol": "var_math_safe_opened"
+    },
+    {
+      "id": "23",
+      "name": "math_safe_sequence_count",
+      "symbol": "var_math_safe_sequence_coun_0"
+    },
+    {
+      "id": "24",
+      "name": "math_safe_code_failed",
+      "symbol": "var_math_safe_code_failed"
+    },
+    {
+      "id": "0439207e-df8c-4e0f-85a9-901a1aaccdff__L0",
+      "name": "math",
+      "symbol": "var_math_0"
+    },
+    {
+      "id": "25",
+      "name": "tbd_1_aquired",
+      "symbol": "var_tbd_1_aquired"
     }
   ]
 }
