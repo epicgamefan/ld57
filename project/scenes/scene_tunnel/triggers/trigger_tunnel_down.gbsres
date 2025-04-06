@@ -11,6 +11,17 @@
   "height": 2,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7bb55ecf-f599-4dcd-8342-8814e809c6d2",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "d07764f9-0a1f-4248-9ad1-e67598b1a480"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "790477ef-8daf-4f4f-a985-b1c9701e185f",
@@ -23,7 +34,7 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": 1
       },
       "id": "2a4a8bb4-2942-4dca-8a78-4a2704d7ebd0"
     }

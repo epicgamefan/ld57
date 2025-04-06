@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "desk_drawer_1_open",
-      "symbol": "var_desk_drawer_1_open"
+      "symbol": "var_desk_drawer_open_0"
     },
     {
       "id": "1",
@@ -70,6 +70,16 @@
       "id": "13",
       "name": "visited_tunnel",
       "symbol": "var_visited_tunnel"
+    },
+    {
+      "id": "14",
+      "name": "maze_failed",
+      "symbol": "var_maze_failed"
+    },
+    {
+      "id": "15",
+      "name": "maze_sequence_count",
+      "symbol": "var_maze_sequence_count"
     }
   ]
 }
