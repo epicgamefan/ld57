@@ -12,16 +12,42 @@
       "args": {
         "actorId": "$self$",
         "x": {
-          "type": "number",
-          "value": 8
+          "type": "variable",
+          "value": "11"
         },
         "y": {
-          "type": "number",
-          "value": 8
+          "type": "variable",
+          "value": "12"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "53cb4a78-3d85-4c64-b920-ee6b791d2299"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right",
+          "down",
+          "up",
+          "left"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac999330-b35f-48d4-9038-b3dddf24c09d"
+            },
+            "id": "955ef20e-40cc-4d34-821d-3ee2f85793b2"
+          }
+        ]
+      },
+      "id": "db769b70-e607-48da-a957-cf844600455a"
     }
   ]
 }

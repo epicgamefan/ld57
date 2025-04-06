@@ -55,6 +55,16 @@
       "id": "10",
       "name": "key_aquired",
       "symbol": "var_key_aquired"
+    },
+    {
+      "id": "11",
+      "name": "cursor_x",
+      "symbol": "var_cursor_x_0"
+    },
+    {
+      "id": "12",
+      "name": "cursor_y",
+      "symbol": "var_cursor_y"
     }
   ]
 }

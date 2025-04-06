@@ -23,6 +23,28 @@
         }
       },
       "id": "c11de3c0-f245-4eac-9e13-2fd460ff507e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "11",
+        "value": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "b747cb1a-9145-44f2-9f24-7e5582e974f5"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "be763e67-3da7-4fe8-984c-0430cc38cc64"
     }
   ]
 }
