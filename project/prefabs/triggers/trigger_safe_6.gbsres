@@ -1,0 +1,19 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "ea1fcd09-8c05-46c4-b899-17789090464f",
+  "name": "trigger_safe_6",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "41415fed-9561-4a27-a744-cd6cf3f26006",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 6
+        }
+      },
+      "id": "5f29d175-6ba3-4fc0-838a-b4932fdb9adc"
+    }
+  ],
+  "leaveScript": []
+}
