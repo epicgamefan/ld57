@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e3178be9-7eb3-4173-acbf-64d63318bb06",
+  "name": "KitchenFreezerDoorOpen",
+  "symbol": "bg_kitchenfreezerdooropen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "KitchenFreezerDoorOpen.png",
+  "tileColors": ""
+}
