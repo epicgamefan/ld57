@@ -1,0 +1,62 @@
+{
+  "_resourceType": "scene",
+  "id": "2e718758-bb3c-4e3f-80b9-fe2882df7c2c",
+  "_index": 9,
+  "name": "scene_kitchen_fridge_door_open",
+  "backgroundId": "de99658d-25a9-45f5-9e1d-866611887299",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 528,
+  "y": 400,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
+      },
+      "id": "152fcd2f-3be3-45c6-9b0d-9c106d765a9a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hmm... Nothing"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "638b587a-da75-49e2-92c6-989a6d4c19ad"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ce9b72ff-93f1-4766-9d57-0651a27f5a51"
+      },
+      "id": "05e78469-fb08-42ca-88e8-f0d5a8c6f26c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "801b37f7-d275-4bd0-b411-fcf0877dbaf3",
+  "name": "trigger_open_freezer",
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7a55ea99-388d-4398-85e7-9f10ebc74c10",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "7087c580-ef6b-4408-9384-1e523a8a9bee"
+    }
+  ],
+  "leaveScript": []
+}

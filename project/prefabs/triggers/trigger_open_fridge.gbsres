@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "67dbd24d-ba01-4738-bbed-298b19c22d02",
+  "name": "trigger_open_fridge",
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7a55ea99-388d-4398-85e7-9f10ebc74c10",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "05c43cba-e0e7-4f85-be5b-ebc65fe313c7"
+    }
+  ],
+  "leaveScript": []
+}
