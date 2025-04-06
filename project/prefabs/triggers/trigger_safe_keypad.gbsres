@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "1fd1e87a-d4b6-4450-aa02-4c3b7344a941",
+  "name": "trigger_safe_keypad",
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0439207e-df8c-4e0f-85a9-901a1aaccdff",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 1
+      },
+      "id": "b7f0ae30-984f-42d8-80f7-3ce7744cc770"
+    }
+  ],
+  "leaveScript": []
+}

@@ -7,19 +7,19 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "2",
-        "choices": 1,
+        "choices": 6,
         "__collapseCase0": false,
         "value0": 0,
         "__collapseCase1": false,
-        "value1": 2,
+        "value1": 1,
         "__collapseCase2": false,
-        "value2": 3,
+        "value2": 2,
         "__collapseCase3": false,
-        "value3": 4,
+        "value3": 3,
         "__collapseCase4": false,
-        "value4": 5,
+        "value4": 4,
         "__collapseCase5": false,
-        "value5": 6,
+        "value5": 5,
         "__collapseCase6": false,
         "value6": 7,
         "__collapseCase7": false,
@@ -52,10 +52,42 @@
             "id": "2e40c04f-2d08-4d3d-938b-583152f00eb8"
           }
         ],
-        "true1": [],
-        "true2": [],
-        "true3": [],
-        "true4": [],
+        "true1": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ce9b72ff-93f1-4766-9d57-0651a27f5a51"
+            },
+            "id": "5dbc0d87-64c7-441d-8592-4fea6ffc7ee6"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d120065b-f5b8-4c18-83f7-d99783102e32"
+            },
+            "id": "113485b5-8cd7-4f61-820b-1dfd5f2a0e27"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "88844443-29c5-4507-9e74-2a95d455ef70"
+            },
+            "id": "aeac9fdc-e160-4f58-bcd6-a485923eda20"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "8b6638b7-595b-40c7-ba32-9cbb8f12f41e"
+            },
+            "id": "3aec84fa-21ca-4c2b-bd76-adf2e05f2fba"
+          }
+        ],
         "true5": [],
         "true6": [],
         "true7": [],

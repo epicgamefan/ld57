@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "af4a0804-bdfb-479f-80bd-ec2eb78f0764",
+  "name": "trigger_safe_hint",
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "39c3005a-42a7-4e58-b254-924168df48df",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 1
+      },
+      "id": "ee0eb45f-c205-4b32-b7fc-3b0b5dcd7fec"
+    }
+  ],
+  "leaveScript": []
+}
