@@ -77,7 +77,7 @@
                   "value": 1
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -153,7 +153,7 @@
                         "value": 4
                       }
                     },
-                    "__collapseElse": true
+                    "__collapseElse": false
                   },
                   "children": {
                     "true": [
@@ -193,7 +193,7 @@
                   "value": 5
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -211,7 +211,7 @@
                         "value": 7
                       }
                     },
-                    "__collapseElse": true
+                    "__collapseElse": false
                   },
                   "children": {
                     "true": [
@@ -251,7 +251,7 @@
                   "value": 6
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -269,7 +269,7 @@
                         "value": 8
                       }
                     },
-                    "__collapseElse": true
+                    "__collapseElse": false
                   },
                   "children": {
                     "true": [
@@ -352,8 +352,8 @@
           "type": "variable",
           "value": "14"
         },
-        "__collapseElse": false,
-        "__collapse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -381,26 +381,7 @@
             "id": "2041ff79-74ef-4812-8fa9-ac59ac701cd7"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "4",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "c04e0677-8049-473a-ae75-e8fb5c7d6c13"
-          },
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
-            },
-            "id": "25b7325d-ebef-4d68-9280-815f2f56b4d0"
-          }
-        ]
+        "false": []
       },
       "id": "e77f1881-f747-411d-9a5c-4a53bc25ae71"
     },
@@ -418,7 +399,7 @@
             "value": 8
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
