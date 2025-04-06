@@ -19,7 +19,8 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
+        "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988",
+        "__collapse": true
       },
       "id": "7a37eaba-c8b7-4d8e-9efa-0ebefe9294b7"
     },
@@ -30,9 +31,21 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "f81a9e2f-4c78-440d-83d5-a7365dbc9d00"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "b1f08a24-4f9d-4724-aa38-36d2106fc2fc"
     },
     {
       "command": "EVENT_IF",
