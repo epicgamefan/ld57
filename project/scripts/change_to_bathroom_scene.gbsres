@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "88844443-29c5-4507-9e74-2a95d455ef70",
+  "name": "change_to_bathroom_scene",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": false
+      },
+      "id": "25d20cd2-6f1c-4ef7-b254-9046cbcd85fc"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "dc1fa9e5-fdfb-4f1d-b917-828d5283727f",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 1
+      },
+      "id": "1b19bd9b-66c8-4ef8-96ea-da3007533682"
+    }
+  ]
+}

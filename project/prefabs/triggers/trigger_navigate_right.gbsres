@@ -43,7 +43,15 @@
         "__collapseElse": false
       },
       "children": {
-        "true0": [],
+        "true0": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "88844443-29c5-4507-9e74-2a95d455ef70"
+            },
+            "id": "1dc068f4-4955-4d09-a330-87c79b848c26"
+          }
+        ],
         "true1": [
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",

@@ -7,15 +7,15 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "2",
-        "choices": 2,
+        "choices": 4,
         "__collapseCase0": false,
         "value0": 0,
         "__collapseCase1": false,
         "value1": 1,
         "__collapseCase2": false,
-        "value2": 3,
+        "value2": 2,
         "__collapseCase3": false,
-        "value3": 4,
+        "value3": 3,
         "__collapseCase4": false,
         "value4": 5,
         "__collapseCase5": false,
@@ -62,7 +62,15 @@
           }
         ],
         "true2": [],
-        "true3": [],
+        "true3": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
+            },
+            "id": "ba784e46-9dd2-434c-b545-3aa3ee881702"
+          }
+        ],
         "true4": [],
         "true5": [],
         "true6": [],

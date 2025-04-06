@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "d94eb2d7-c14d-4837-89da-f7a51168246c",
-  "_index": 12,
-  "name": "scene_math_default",
-  "backgroundId": "f9e09a2d-721f-45cc-b5b9-04ee66e1518b",
+  "id": "dc1fa9e5-fdfb-4f1d-b917-828d5283727f",
+  "_index": 13,
+  "name": "scene_bathroom_default",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,16 +12,16 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_13",
-  "x": 473.5,
-  "y": 595,
+  "symbol": "scene_14",
+  "x": 680,
+  "y": 592,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
       },
-      "id": "4714a9b9-5d35-4554-9f2d-28b37afcfc9c"
+      "id": "43a0eb69-c4c1-4596-abd0-6b6fadef65e4"
     }
   ],
   "playerHit1Script": [],
