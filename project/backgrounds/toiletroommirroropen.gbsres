@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "91c03a3b-cbd2-4961-8553-b338776298fe",
+  "name": "ToiletRoomMirrorOpen",
+  "symbol": "bg_toiletroommirroropen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ToiletRoomMirrorOpen.png",
+  "tileColors": ""
+}

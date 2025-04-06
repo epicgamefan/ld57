@@ -135,6 +135,11 @@
       "id": "0439207e-df8c-4e0f-85a9-901a1aaccdff__L0",
       "name": "math",
       "symbol": "var_math_0"
+    },
+    {
+      "id": "26",
+      "name": "mirror_opened",
+      "symbol": "var_mirror_opened"
     }
   ]
 }

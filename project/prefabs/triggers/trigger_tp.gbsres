@@ -1,0 +1,35 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "4a199762-99db-4dfe-9add-6d4ffe448ec0",
+  "name": "trigger_tp",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Just your standard\nroll",
+          "of public \nbathroom single \nply sandpaper.",
+          "Cruel\nand unusual \npunishment."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8fa6d4f7-392a-4b9a-bee2-1c42addac648"
+    }
+  ],
+  "leaveScript": []
+}

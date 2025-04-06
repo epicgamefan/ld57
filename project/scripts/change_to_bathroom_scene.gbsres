@@ -15,26 +15,60 @@
           "type": "number",
           "value": 3
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "25d20cd2-6f1c-4ef7-b254-9046cbcd85fc"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "dc1fa9e5-fdfb-4f1d-b917-828d5283727f",
-        "x": {
-          "type": "number",
-          "value": 0
+        "condition": {
+          "type": "variable",
+          "value": "26"
         },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
-        "fadeSpeed": 1
+        "__collapseElse": false
       },
-      "id": "1b19bd9b-66c8-4ef8-96ea-da3007533682"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "16cdb9ea-fdf7-42dc-9b02-df08f3d6022e",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "482e0c34-d1a4-4113-86d7-8814d876268f"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "dc1fa9e5-fdfb-4f1d-b917-828d5283727f",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "1b19bd9b-66c8-4ef8-96ea-da3007533682"
+          }
+        ]
+      },
+      "id": "49902333-d4d5-44ed-b772-b865da55a17f"
     }
   ]
 }
