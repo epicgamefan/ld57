@@ -1,0 +1,35 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "64385700-b687-4eae-ae07-d833cb7deb92",
+  "name": "trigger_clock",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Its just a normal\nclock.",
+          "Seems like it might\nbe broken.",
+          "Time seems to be \nstuck at \n02:58"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "db94fe18-80fd-49c3-b9a7-783ca2b16771"
+    }
+  ],
+  "leaveScript": []
+}
