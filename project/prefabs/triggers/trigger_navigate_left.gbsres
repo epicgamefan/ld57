@@ -7,7 +7,7 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "2",
-        "choices": 4,
+        "choices": 6,
         "__collapseCase0": false,
         "value0": 0,
         "__collapseCase1": false,
@@ -17,9 +17,9 @@
         "__collapseCase3": false,
         "value3": 3,
         "__collapseCase4": false,
-        "value4": 5,
+        "value4": 4,
         "__collapseCase5": false,
-        "value5": 6,
+        "value5": 5,
         "__collapseCase6": false,
         "value6": 7,
         "__collapseCase7": false,
@@ -61,7 +61,15 @@
             "id": "8e249262-1d56-4082-ac61-852042531f47"
           }
         ],
-        "true2": [],
+        "true2": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "8b6638b7-595b-40c7-ba32-9cbb8f12f41e"
+            },
+            "id": "97b3be31-52da-4b00-9c74-431aa9e6244d"
+          }
+        ],
         "true3": [
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",

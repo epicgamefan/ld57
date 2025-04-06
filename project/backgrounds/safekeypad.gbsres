@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "92d1a67e-5635-4f46-8e08-46bdf455e777",
+  "name": "SafeKeypad",
+  "symbol": "bg_safekeypad",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "SafeKeypad.png",
+  "tileColors": ""
+}
