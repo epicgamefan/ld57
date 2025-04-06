@@ -65,6 +65,11 @@
       "id": "12",
       "name": "cursor_y",
       "symbol": "var_cursor_y"
+    },
+    {
+      "id": "13",
+      "name": "visited_tunnel",
+      "symbol": "var_visited_tunnel"
     }
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "14de7186-6409-4415-944e-3b13774e1e80",
+  "name": "trigger_tunnel_down",
+  "prefabId": "",
+  "x": 9,
+  "y": 15,
+  "symbol": "trigger_32",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "790477ef-8daf-4f4f-a985-b1c9701e185f",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "2a4a8bb4-2942-4dca-8a78-4a2704d7ebd0"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

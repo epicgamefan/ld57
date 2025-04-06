@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "b5dab0ee-14e5-4a59-97b7-cd6b1f4f41f2",
+  "_index": 6,
+  "name": "scene_desk_door_open",
+  "backgroundId": "ac517378-b5c5-4a5f-a1fe-9c31af99cd0f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 568,
+  "y": 208,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

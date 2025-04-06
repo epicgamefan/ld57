@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "9e3124bd-86a2-45f1-9ce4-bb4290bc0708",
+  "name": "trigger_desk_door",
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "790477ef-8daf-4f4f-a985-b1c9701e185f",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "62b17887-5383-4d7b-8bb7-c214ba803f81"
+    }
+  ],
+  "leaveScript": []
+}

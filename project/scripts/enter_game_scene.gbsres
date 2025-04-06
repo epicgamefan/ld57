@@ -27,10 +27,10 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "right",
-          "down",
-          "up",
-          "left"
+          "a",
+          "b",
+          "start",
+          "select"
         ],
         "override": false,
         "__scriptTabs": "press",

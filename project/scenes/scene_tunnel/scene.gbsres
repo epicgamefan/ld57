@@ -1,0 +1,87 @@
+{
+  "_resourceType": "scene",
+  "id": "790477ef-8daf-4f4f-a985-b1c9701e185f",
+  "_index": 7,
+  "name": "scene_tunnel",
+  "backgroundId": "a364de9a-0f57-4ec2-8758-22868805358b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 60,
+  "y": 592,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
+      },
+      "id": "fcbada1e-ab1c-4b9c-ac10-4914c32b676e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "13"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This tunnel looks\nlike a maze.",
+                "Looks like I can\nhead North, South\nEast or West.",
+                "Also I see\nan exit back to\nthe room."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "dafb42c3-7dfa-44d7-b66b-444cd208d5f9"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "13",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "edf728b0-dee6-4b69-901f-98c1ffa8d8fb"
+          }
+        ],
+        "false": []
+      },
+      "id": "4222cd59-d82e-4065-aeca-1fdb029e346b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
