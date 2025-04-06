@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cdacb995-03b3-4a7a-8ec4-8637f2c91464",
+  "name": "Kitchen",
+  "symbol": "bg_kitchen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Kitchen.png",
+  "tileColors": ""
+}

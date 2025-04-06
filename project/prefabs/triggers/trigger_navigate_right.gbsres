@@ -7,11 +7,11 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "2",
-        "choices": 1,
+        "choices": 2,
         "__collapseCase0": false,
         "value0": 0,
         "__collapseCase1": false,
-        "value1": 2,
+        "value1": 1,
         "__collapseCase2": false,
         "value2": 3,
         "__collapseCase3": false,
@@ -47,12 +47,20 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
+              "customEventId": "ce9b72ff-93f1-4766-9d57-0651a27f5a51"
             },
             "id": "81cf24e2-17ab-4f16-8765-ff1f6bcd67cd"
           }
         ],
-        "true1": [],
+        "true1": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
+            },
+            "id": "cd5ad14b-bdaf-4240-9685-e769ec6889e9"
+          }
+        ],
         "true2": [],
         "true3": [],
         "true4": [],

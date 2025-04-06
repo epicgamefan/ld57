@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "f868a02a-05aa-4f98-b834-2bb31b460b57",
+  "_index": 8,
+  "name": "scene_kitchen_default",
+  "backgroundId": "cdacb995-03b3-4a7a-8ec4-8637f2c91464",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 422.5,
+  "y": 398,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
+      },
+      "id": "209559eb-eb10-4311-bd5e-cb6ca7ce8775"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "ce9b72ff-93f1-4766-9d57-0651a27f5a51",
+  "name": "change_to_kitchen_scene",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "84aa5270-b37e-4b5b-9c89-32590c6446ae"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f868a02a-05aa-4f98-b834-2bb31b460b57",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 1
+      },
+      "id": "1cb560d7-07c6-433f-a3c1-0b5e724d9e6d"
+    }
+  ]
+}

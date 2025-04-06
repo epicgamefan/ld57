@@ -1,0 +1,39 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "82fd2ddb-904d-44a4-99ed-ad7afea9348e",
+  "name": "trigger_note_2",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A note...\nAnd more strange\nsymbols.",
+          "Day 3: Time appears \nto sit still\nin this room.",
+          "No concept of \nday or night.",
+          "I thought the clock \nwas broken. This \nmay explain it.",
+          "I left key in the\nother drawer if\nyou get bored",
+          "it should help\npass the time.",
+          "¢¢¢¢¢¢¢¢¢¢¢\n¢¢¢¢¢¢¢¢¢¢¢\n¢¢¢¢¢¢¢¢¢¢¢"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bef3b018-ab22-40f5-a551-342dd7816a92"
+    }
+  ],
+  "leaveScript": []
+}

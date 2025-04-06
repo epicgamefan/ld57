@@ -1,0 +1,31 @@
+{
+  "_resourceType": "trigger",
+  "id": "2c8d0f4d-82b6-40f8-b2b1-73985fdaae3f",
+  "name": "",
+  "prefabId": "17500dca-1816-4fd1-94da-286adf4ac9bd",
+  "x": 10,
+  "y": 15,
+  "symbol": "trigger_37",
+  "prefabScriptOverrides": {
+    "60c893c0-f5db-4f49-8297-5e2371709d08": {
+      "id": "60c893c0-f5db-4f49-8297-5e2371709d08",
+      "args": {
+        "text": [
+          "A note and more\nsymbols.",
+          "Day 17: Hunger is\nnot a thing here. ",
+          "I haven't eat in \ndays, but not\nhungry or thirsty.",
+          "There is something\nspecial about this\nplace.",
+          "I'm curious to\nlearn the secrets",
+          "Its like this place\nis reversing time",
+          "instead of taking \nit.",
+          "¥¥¥¥¥¥¥¥¥¥¥¥\n¥¥¥¥¥¥¥¥¥¥¥¥\n¥¥¥¥¥¥¥¥¥¥¥¥"
+        ]
+      }
+    }
+  },
+  "width": 1,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 2
+}
