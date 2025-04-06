@@ -56,7 +56,7 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
+              "customEventId": "d120065b-f5b8-4c18-83f7-d99783102e32"
             },
             "id": "8e249262-1d56-4082-ac61-852042531f47"
           }

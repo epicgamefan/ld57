@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "d94eb2d7-c14d-4837-89da-f7a51168246c",
+  "_index": 12,
+  "name": "scene_math_default",
+  "backgroundId": "f9e09a2d-721f-45cc-b5b9-04ee66e1518b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 473.5,
+  "y": 595,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

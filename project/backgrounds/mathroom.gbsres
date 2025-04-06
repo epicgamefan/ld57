@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f9e09a2d-721f-45cc-b5b9-04ee66e1518b",
+  "name": "MathRoom",
+  "symbol": "bg_mathroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "MathRoom.png",
+  "tileColors": ""
+}

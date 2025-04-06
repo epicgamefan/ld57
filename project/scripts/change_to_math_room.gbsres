@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "d120065b-f5b8-4c18-83f7-d99783102e32",
+  "name": "change_to_math_room",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": false
+      },
+      "id": "cdee3b70-6437-4c4f-9060-61a754bf23eb"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "d94eb2d7-c14d-4837-89da-f7a51168246c",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 1
+      },
+      "id": "5e7ff972-3633-49d2-966e-c4e7a020a65a"
+    }
+  ]
+}
