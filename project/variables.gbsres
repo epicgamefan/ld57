@@ -80,6 +80,16 @@
       "id": "15",
       "name": "maze_sequence_count",
       "symbol": "var_maze_sequence_count"
+    },
+    {
+      "id": "16",
+      "name": "fridge_sequence_count",
+      "symbol": "var_fridge_sequence_count"
+    },
+    {
+      "id": "17",
+      "name": "fridge_secret_open",
+      "symbol": "var_fridge_secret_open"
     }
   ]
 }

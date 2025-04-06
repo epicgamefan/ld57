@@ -24,29 +24,15 @@
       "id": "152fcd2f-3be3-45c6-9b0d-9c106d765a9a"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "text": [
-          "Hmm... Nothing"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "customEventId": "a66fb56d-5e0c-43c0-a894-1a224f317103",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 1
+        }
       },
-      "id": "638b587a-da75-49e2-92c6-989a6d4c19ad"
+      "id": "4b5e1fec-6a11-41f3-a337-7db6b96ee951"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
