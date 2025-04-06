@@ -1,0 +1,29 @@
+{
+  "_resourceType": "trigger",
+  "id": "5bb13dfd-b5eb-45c6-8f4e-21894da49a32",
+  "name": "",
+  "prefabId": "23a9b0ed-970c-465f-8f57-42b7dd75a363",
+  "x": 15,
+  "y": 6,
+  "symbol": "trigger_94",
+  "prefabScriptOverrides": {
+    "605246a4-65a7-489f-8e72-6d380429ae52": {
+      "id": "605246a4-65a7-489f-8e72-6d380429ae52",
+      "args": {
+        "text": [
+          "Amazing what some\nread in the \nbathroom.",
+          "Hmm this one \npage is marked.",
+          "It look like a\nrecipe.",
+          "1X Frozen Peas\n2X Chilled Eggs\n1X Chilled Milk",
+          "1X Frozen Yogurt\n1X Leftover Pizza",
+          "Hmm... It looks\nlike the order\nmatters."
+        ]
+      }
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "script": [],
+  "leaveScript": [],
+  "_index": 1
+}
