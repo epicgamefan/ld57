@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ac517378-b5c5-4a5f-a1fe-9c31af99cd0f",
+  "name": "DeskSceneDoorOpen",
+  "symbol": "bg_deskscenedooropen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "DeskSceneDoorOpen.png",
+  "tileColors": ""
+}

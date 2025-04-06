@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a364de9a-0f57-4ec2-8758-22868805358b",
+  "name": "Tunnel1",
+  "symbol": "bg_tunnel1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Tunnel1.png",
+  "tileColors": ""
+}

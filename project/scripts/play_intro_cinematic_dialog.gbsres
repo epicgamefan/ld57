@@ -251,9 +251,11 @@
             "args": {
               "text": [
                 "The good Doctor\nMarvin Moreau will",
-                "surely be good to\nlearn of your \narrival.",
+                "surely be happy to\nlearn of your \narrival.",
                 "He probably has\nnot seen another",
-                "human being for\nquite some time..."
+                "human being for\nquite some time.",
+                "Enjoy your\n\"Retirement.\"",
+                "It will be a long\none..."
               ],
               "__section": "text",
               "avatarId": "",
