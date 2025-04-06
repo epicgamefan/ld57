@@ -53,8 +53,8 @@
     },
     {
       "id": "10",
-      "name": "key_aquired",
-      "symbol": "var_key_aquired"
+      "name": "key_1_aquired",
+      "symbol": "var_key_1_aquired"
     },
     {
       "id": "11",
@@ -105,6 +105,11 @@
       "id": "20",
       "name": "safe_opened",
       "symbol": "var_safe_opened"
+    },
+    {
+      "id": "21",
+      "name": "key_2_aquired",
+      "symbol": "var_key_2_aquired"
     }
   ]
 }

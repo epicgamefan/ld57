@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ae76db73-b413-4d09-9590-1a737d76b906",
+  "name": "SafeCombinationHint",
+  "symbol": "bg_safecombinationhint",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "SafeCombinationHint.png",
+  "tileColors": ""
+}

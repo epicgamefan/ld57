@@ -1,0 +1,90 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "ac8d1a7f-d685-4d3c-9224-5ed0dff8ce0d",
+  "name": "trigger_key_2",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "21"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "There is a Key!",
+                "You take it and \nshove it\ninto your pocket."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "348e8ec8-a931-4159-a1a2-e69dc00ead76"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "4f505536-7488-4f2b-b7f7-0aee466cc82a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The key that was\nhere is now\nin your pocket."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "75bfd0ef-c1e4-4b8e-9197-8c4f6d9d525d"
+          }
+        ]
+      },
+      "id": "f60df252-be03-4b6a-a72b-4715b4780955"
+    }
+  ],
+  "leaveScript": []
+}
