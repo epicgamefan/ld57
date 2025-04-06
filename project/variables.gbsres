@@ -90,6 +90,21 @@
       "id": "17",
       "name": "fridge_secret_open",
       "symbol": "var_fridge_secret_open"
+    },
+    {
+      "id": "18",
+      "name": "safe_sequence_count",
+      "symbol": "var_safe_sequence_count"
+    },
+    {
+      "id": "19",
+      "name": "safe_code_failed",
+      "symbol": "var_safe_code_failed"
+    },
+    {
+      "id": "20",
+      "name": "safe_opened",
+      "symbol": "var_safe_opened"
     }
   ]
 }

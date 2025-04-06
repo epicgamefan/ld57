@@ -22,6 +22,29 @@
         "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
       },
       "id": "eac13d69-2a66-4533-ade0-ae94bd36cc88"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "18",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "4b9b8045-f97d-456c-8e2f-305102a705e9"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "19",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "b0a2b1c2-6843-4eb6-9427-83614ae0f358"
     }
   ],
   "playerHit1Script": [],
