@@ -34,7 +34,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -42,8 +42,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "What is the place?",
-                "Its like some one \nwas here before me.",
+                "What is this\nplace?",
+                "Was someone here\nbefore me?",
                 "I don't see any \none. I think I'm \nall alone."
               ],
               "__section": "text",
@@ -62,7 +62,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a300fafa-5e44-4c5a-9ff1-b39ea6adb24d"
           },
