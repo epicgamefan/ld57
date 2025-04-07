@@ -34,7 +34,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -48,6 +48,132 @@
         ]
       },
       "id": "db769b70-e607-48da-a957-cf844600455a"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "32"
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "32",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "f842581b-dd93-403c-8997-707274489168"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Cursor Speed:\nFast"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "4a445292-3f7f-4001-8900-c20844bc79b6"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 2,
+                    "__collapse": true
+                  },
+                  "id": "9b9564ca-7b01-49ff-8ef3-31809367b96f"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "32",
+                    "value": {
+                      "type": "true"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "275dee13-edfb-4c45-a913-a5e44dc0439f"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Cursor Speed:\nSlow"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true,
+                    "actorId": "$self$",
+                    "speed": 2
+                  },
+                  "id": "0f69afff-ea66-48a1-a6b5-434c83f63876"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 1,
+                    "__collapse": true
+                  },
+                  "id": "e4c25a92-d784-49be-9629-b9d6f488df70"
+                }
+              ]
+            },
+            "id": "4125684a-c99c-496a-a217-ae2860cf46b6"
+          }
+        ]
+      },
+      "id": "d973cb91-fe1a-47c6-a4e5-1cf3633af742"
     }
   ]
 }
