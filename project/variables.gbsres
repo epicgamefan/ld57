@@ -145,6 +145,16 @@
       "id": "0439207e-df8c-4e0f-85a9-901a1aaccdff__L0",
       "name": "math",
       "symbol": "var_math_0"
+    },
+    {
+      "id": "28",
+      "name": "key_vault_open",
+      "symbol": "var_key_vault_open"
+    },
+    {
+      "id": "29",
+      "name": "tunnel_vault_open",
+      "symbol": "var_tunnel_vault_open"
     }
   ]
 }

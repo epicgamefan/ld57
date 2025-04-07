@@ -1,0 +1,35 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "ca8e6a97-a338-4a8a-8768-a1cebb2db168",
+  "name": "trigger_big_lock",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Its a BIG LOCK",
+          "Only if I had a\nway to turn small\nkeys into",
+          "a BIG KEY..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "213111d3-3721-4272-a780-3da7f01d84ab"
+    }
+  ],
+  "leaveScript": []
+}

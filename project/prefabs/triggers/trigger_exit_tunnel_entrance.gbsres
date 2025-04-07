@@ -1,0 +1,15 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "88848835-b32e-44b9-b4e1-01d973065732",
+  "name": "trigger_exit_tunnel_entrance",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
+      },
+      "id": "9651f7b3-8324-4e90-a6c7-0628d7d02fc7"
+    }
+  ],
+  "leaveScript": []
+}

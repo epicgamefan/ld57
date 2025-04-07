@@ -1,0 +1,51 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "f50c610f-a2e3-480f-a039-d6773e043a62",
+  "name": "trigger_big_key",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A BIG KEY...",
+          "That is perfect\nfor this \nBIG LOCK..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "57d1139d-db67-41c3-bb76-7d5521fe3df1"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "29",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "f65e5d97-a598-4556-a5eb-c7523353e84d"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2ec30d71-7f90-439c-97a4-31ee5abdc6c9"
+      },
+      "id": "2a420349-2362-42ed-8b49-0436496c0f89"
+    }
+  ],
+  "leaveScript": []
+}

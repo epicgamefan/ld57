@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "16b55680-11b8-407b-917a-cc87b8fc7820",
-  "_index": 11,
-  "name": "scene_end_of_tunnel",
-  "backgroundId": "13c120e7-c7fc-45f5-848a-c77aed6b07ba",
+  "id": "846a0663-5009-4b62-b002-eb47ed6ca19e",
+  "_index": 26,
+  "name": "scene_tunnel_entrance_open",
+  "backgroundId": "3083ee93-f5dc-4162-9fa6-5162fd6db7ee",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,16 +12,16 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_12",
-  "x": 232,
-  "y": 592,
+  "symbol": "scene_27",
+  "x": 400,
+  "y": 1008,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
       },
-      "id": "ad8e3cef-1150-415f-bbb0-d8e6402f84d2"
+      "id": "3c8e1fd0-da3e-49d3-ae9f-a9998044881f"
     }
   ],
   "playerHit1Script": [],

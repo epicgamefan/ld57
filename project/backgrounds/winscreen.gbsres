@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "13c120e7-c7fc-45f5-848a-c77aed6b07ba",
+  "name": "WinScreen",
+  "symbol": "bg_winscreen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "WinScreen.png",
+  "tileColors": ""
+}
