@@ -6,16 +6,7 @@
   "x": 11,
   "y": 6,
   "symbol": "trigger_14",
-  "prefabScriptOverrides": {
-    "4bf4e831-7a9b-4ed5-809c-5480d53eb599": {
-      "id": "4bf4e831-7a9b-4ed5-809c-5480d53eb599",
-      "args": {
-        "text": [
-          "It's already \nunlocked."
-        ]
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "width": 1,
   "height": 2,
   "script": [],

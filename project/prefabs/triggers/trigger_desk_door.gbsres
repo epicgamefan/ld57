@@ -5,7 +5,9 @@
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {},
+      "args": {
+        "customEventId": "2ec30d71-7f90-439c-97a4-31ee5abdc6c9"
+      },
       "id": "6ab83c9d-f3f5-4664-8da4-e92cabd3e338"
     }
   ],

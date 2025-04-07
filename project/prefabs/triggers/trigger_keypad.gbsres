@@ -24,7 +24,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Its already \nunlocked."
+                "It's already \nunlocked."
               ],
               "__section": "text",
               "avatarId": "",
@@ -60,7 +60,7 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2",
+              "fadeSpeed": 1,
               "__collapse": false
             },
             "id": "4ab508b1-0ff7-40b0-8c40-aa9822b43e15"

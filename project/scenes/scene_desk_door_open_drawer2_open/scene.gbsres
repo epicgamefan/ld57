@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "b5dab0ee-14e5-4a59-97b7-cd6b1f4f41f2",
-  "_index": 6,
-  "name": "scene_desk_door_open",
-  "backgroundId": "ac517378-b5c5-4a5f-a1fe-9c31af99cd0f",
+  "id": "9befa8ea-c733-430c-b15a-cbff17800c6f",
+  "_index": 28,
+  "name": "scene_desk_door_open_drawer2_open",
+  "backgroundId": "8e1fbadf-1547-45d4-b121-311faf839632",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,8 +12,8 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
-  "x": 568,
+  "symbol": "scene_29",
+  "x": 904,
   "y": 208,
   "script": [
     {
@@ -21,7 +21,7 @@
       "args": {
         "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
       },
-      "id": "c319c341-9f26-4a69-a440-38c99469a8af"
+      "id": "6c66ec63-9d9f-41b3-be13-af9bff4af075"
     }
   ],
   "playerHit1Script": [],
