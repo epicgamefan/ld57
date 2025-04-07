@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "942bb7c2-008d-490c-9d13-5d18b7ebdd26",
+  "name": "ToiletRoomSafeOpen",
+  "symbol": "bg_toiletroomsafeopen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ToiletRoomSafeOpen.png",
+  "tileColors": ""
+}

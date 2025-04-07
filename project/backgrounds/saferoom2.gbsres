@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "46a5e437-bd63-4cca-8217-0d089d08199a",
+  "name": "SafeRoom2",
+  "symbol": "bg_saferoom2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "SafeRoom2.png",
+  "tileColors": ""
+}

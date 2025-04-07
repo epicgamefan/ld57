@@ -6,7 +6,14 @@
     {
       "command": "EVENT_TEXT",
       "args": {
-        "text": "",
+        "text": [
+          "Amazing what some\nread in the \nbathroom.",
+          "Hmm this one \npage is marked.",
+          "It look like a\nrecipe.",
+          "1X Frozen Peas\n2X Chilled Eggs\n1X Chilled Milk",
+          "1X Frozen Yogurt\n1X Leftover Pizza",
+          "Hmm... It looks\nlike the order\nmatters."
+        ],
         "__section": "text",
         "avatarId": "",
         "minHeight": 4,

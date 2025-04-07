@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3083ee93-f5dc-4162-9fa6-5162fd6db7ee",
+  "name": "SafeRoom2DoorOpen",
+  "symbol": "bg_saferoom2dooropen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "SafeRoom2DoorOpen.png",
+  "tileColors": ""
+}

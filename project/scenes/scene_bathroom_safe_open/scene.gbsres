@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "d895ad57-dcbf-49cb-8aee-442f95d613d6",
+  "_index": 23,
+  "name": "scene_bathroom_safe_open",
+  "backgroundId": "942bb7c2-008d-490c-9d13-5d18b7ebdd26",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_24",
+  "x": 1016,
+  "y": 592,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
+      },
+      "id": "f1c50d6c-8da4-4b54-9934-e0fb2a1d7ac5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
