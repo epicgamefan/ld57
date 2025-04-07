@@ -22,6 +22,62 @@
         "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
       },
       "id": "b1271d0d-3071-4b97-bda3-f0a0afad4390"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "30"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Wow...",
+                "That is a\nBIG LOCK!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "402515da-5850-4d6e-aeb1-e78fd2fdcffe"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "30",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "36cc0359-a212-45d1-8128-08dedf109fca"
+          }
+        ],
+        "false": []
+      },
+      "id": "3d1cfe06-0d8b-4687-a49a-caeeb513ecdd"
     }
   ],
   "playerHit1Script": [],

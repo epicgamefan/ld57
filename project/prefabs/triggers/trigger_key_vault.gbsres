@@ -7,7 +7,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Its big vault that \ntakes 3 keys..."
+          "A big safe that \ntakes 3 keys..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -66,7 +66,7 @@
                         "args": {
                           "text": [
                             "You carefully\ninsert each key",
-                            "The vault opens..."
+                            "The safe door\nopens..."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -84,7 +84,7 @@
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "f505ac59-3ea5-4ee1-a2ac-ded914444511"
                       },
