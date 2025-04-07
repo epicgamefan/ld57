@@ -17,29 +17,19 @@
   "y": 30,
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_MUSIC_STOP",
       "args": {
-        "condition": {
-          "type": "variable",
-          "value": "7"
-        },
-        "__collapseElse": false,
         "__collapse": true
       },
-      "children": {
-        "true": [],
-        "false": [
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "1669f465-f453-483b-8e22-10f1b3d7589f",
-              "__collapse": true
-            },
-            "id": "05b78fc8-7cbf-4b01-9711-f58cea48d6ab"
-          }
-        ]
+      "id": "c30427f6-c6dc-4199-8f00-c4d8a4bdb874"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1669f465-f453-483b-8e22-10f1b3d7589f",
+        "__collapse": true
       },
-      "id": "8fc0e9f7-0507-4430-8a79-66fa71e9b40f"
+      "id": "05b78fc8-7cbf-4b01-9711-f58cea48d6ab"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -60,7 +50,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -84,21 +74,6 @@
         ]
       },
       "id": "de178593-135c-493c-ac98-cd25967f10b3"
-    },
-    {
-      "command": "EVENT_MUSIC_STOP",
-      "args": {
-        "__collapse": true
-      },
-      "id": "c30427f6-c6dc-4199-8f00-c4d8a4bdb874"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "43561bbe-cbaa-46fc-b77a-0566638a94a5",
-        "__collapse": false
-      },
-      "id": "936bd5b5-0d70-4a48-9a44-ff3753498da0"
     }
   ],
   "playerHit1Script": [],
