@@ -3,7 +3,7 @@
   "id": "82395196-f9e7-4870-a22b-302bd9b4b161",
   "_index": 14,
   "name": "scene_kitchen_solved",
-  "backgroundId": "4a2b6fad-45ce-4ad2-867f-16a5814de824",
+  "backgroundId": "f110c25b-0c4e-4dd3-b76f-4ed2731699cd",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -13,7 +13,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
-  "x": 864,
+  "x": 528,
   "y": 400,
   "script": [
     {

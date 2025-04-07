@@ -4,21 +4,56 @@
   "name": "trigger_open_fridge",
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "7a55ea99-388d-4398-85e7-9f10ebc74c10",
-        "x": {
-          "type": "number",
-          "value": 0
+        "condition": {
+          "type": "variable",
+          "value": "17"
         },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "05c43cba-e0e7-4f85-be5b-ebc65fe313c7"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "6f3d213a-fe32-4e26-a1cc-396f8382f7b4",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1,
+              "__collapse": false
+            },
+            "id": "04f07b7d-b0a2-4d4d-bb5e-db5fbcc33ab4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "2e718758-bb3c-4e3f-80b9-fe2882df7c2c",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "05c43cba-e0e7-4f85-be5b-ebc65fe313c7"
+          }
+        ]
+      },
+      "id": "06afe7a4-0345-4ca6-8a67-38e36ab093a3"
     }
   ],
   "leaveScript": []

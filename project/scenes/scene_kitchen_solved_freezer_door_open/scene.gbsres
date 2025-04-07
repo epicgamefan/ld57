@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "7a55ea99-388d-4398-85e7-9f10ebc74c10",
-  "_index": 10,
-  "name": "scene_kitchen_freezer_door_open",
-  "backgroundId": "e3178be9-7eb3-4173-acbf-64d63318bb06",
+  "id": "5b63dd1c-c83e-4ba0-b3ef-9581c75c0f51",
+  "_index": 30,
+  "name": "scene_kitchen_solved_freezer_door_open",
+  "backgroundId": "52581d81-2396-495f-b511-9d0920f1b80f",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,8 +12,8 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_11",
-  "x": 888,
+  "symbol": "scene_31",
+  "x": 1248,
   "y": 400,
   "script": [
     {
@@ -21,7 +21,7 @@
       "args": {
         "customEventId": "11926b8c-ee7f-44e7-9036-268f4addb988"
       },
-      "id": "f5be5e64-9b7e-4f59-87f9-4e705ae18712"
+      "id": "7a73088d-93bb-4a03-8d41-1f86be37e5d7"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -29,17 +29,17 @@
         "customEventId": "a66fb56d-5e0c-43c0-a894-1a224f317103",
         "$variable[V0]$": {
           "type": "number",
-          "value": 0
+          "value": 2
         }
       },
-      "id": "97c31c2e-19be-46fc-8f74-f3190bbed5bc"
+      "id": "02135575-21f3-4b80-afd7-99f2661e1983"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "ce9b72ff-93f1-4766-9d57-0651a27f5a51"
       },
-      "id": "649b198b-d6bb-415f-a562-2fa5efd0e316"
+      "id": "2bdb9395-3dc8-4d39-86a7-b4243a5dcff8"
     }
   ],
   "playerHit1Script": [],
