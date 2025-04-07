@@ -17,42 +17,10 @@
   "y": 30,
   "script": [
     {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "43561bbe-cbaa-46fc-b77a-0566638a94a5"
-      },
-      "id": "3bb0f614-e3c5-48cd-a0b3-4e9eb552dec9"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "7"
-        },
-        "__collapseElse": false,
-        "__collapse": true
-      },
-      "children": {
-        "true": [],
-        "false": [
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "1669f465-f453-483b-8e22-10f1b3d7589f",
-              "__collapse": true
-            },
-            "id": "99998725-47cf-4712-9449-80dedd17b734"
-          }
-        ]
-      },
-      "id": "59977959-4f5b-4d86-9de2-fe8068a81a51"
-    },
-    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "1a8dc4b7-084e-4c8e-aa25-3e8d0a176b31",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "77fe2308-4913-4ac2-9073-550269798bbc"
     },
