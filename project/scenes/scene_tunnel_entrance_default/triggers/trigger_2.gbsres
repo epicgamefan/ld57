@@ -6,7 +6,17 @@
   "x": 2,
   "y": 7,
   "symbol": "trigger_58",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "f505ac59-3ea5-4ee1-a2ac-ded914444511": {
+      "id": "f505ac59-3ea5-4ee1-a2ac-ded914444511",
+      "args": {
+        "text": [
+          "You carefully\ninsert each key.",
+          "The safe door\nopens..."
+        ]
+      }
+    }
+  },
   "width": 5,
   "height": 5,
   "script": [],

@@ -250,8 +250,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The good Doctor\nMarvin Moreau will",
-                "surely be happy to\nlearn of your \narrival.",
+                "The Good Doctor,\nMarvin Moreau,",
+                "will surely be\nhappy to learn of \nyour arrival.",
                 "He probably has\nnot seen another",
                 "human being for\nquite some time.",
                 "Enjoy your\n\"Retirement.\"",
