@@ -7,7 +7,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "A note and more\nsymbols.",
+          "A note with more\nof those\nsymbols.",
           "Day 17: Hunger is\nnot a thing here. ",
           "I haven't eat in \ndays, but not\nhungry or thirsty.",
           "There is something\nspecial about this\nplace.",
