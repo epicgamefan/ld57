@@ -86,6 +86,13 @@
       "id": "de178593-135c-493c-ac98-cd25967f10b3"
     },
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "c30427f6-c6dc-4199-8f00-c4d8a4bdb874"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "43561bbe-cbaa-46fc-b77a-0566638a94a5",

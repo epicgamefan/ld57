@@ -4,21 +4,9 @@
   "name": "trigger_desk_door",
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "790477ef-8daf-4f4f-a985-b1c9701e185f",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
-        "fadeSpeed": "2"
-      },
-      "id": "62b17887-5383-4d7b-8bb7-c214ba803f81"
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {},
+      "id": "6ab83c9d-f3f5-4664-8da4-e92cabd3e338"
     }
   ],
   "leaveScript": []
