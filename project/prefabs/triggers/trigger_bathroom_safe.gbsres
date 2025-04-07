@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "bdd88c93-ad0e-44a4-a4af-d01986df9436",
+  "name": "trigger_bathroom_safe",
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1057b6c8-8f3f-4a60-ba73-f087ded3e86a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "1edb6ec4-ffe1-4a0a-9aad-879a583786b4"
+    }
+  ],
+  "leaveScript": []
+}
