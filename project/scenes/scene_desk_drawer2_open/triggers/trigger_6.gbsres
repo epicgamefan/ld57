@@ -6,7 +6,22 @@
   "x": 6,
   "y": 9,
   "symbol": "trigger_17",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "bef3b018-ab22-40f5-a551-342dd7816a92": {
+      "id": "bef3b018-ab22-40f5-a551-342dd7816a92",
+      "args": {
+        "text": [
+          "A note...\nAnd more strange\nsymbols.",
+          "Day 3: Time appears \nto sit still\nin this room.",
+          "No concept of \nday or night.",
+          "I thought the clock \nwas broken. This \nmay explain it.",
+          "I left a key in\nthe other drawer\nif you get bored.",
+          "It should help\npass the time.",
+          "¢¢¢¢¢¢¢¢¢¢¢\n¢¢¢¢¢¢¢¢¢¢¢\n¢¢¢¢¢¢¢¢¢¢¢"
+        ]
+      }
+    }
+  },
   "width": 2,
   "height": 1,
   "script": [],

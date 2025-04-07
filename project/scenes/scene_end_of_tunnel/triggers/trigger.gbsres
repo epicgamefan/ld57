@@ -14,7 +14,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You escape\nup the ladder."
+          "You escape up the\nladder."
         ],
         "__section": "text",
         "avatarId": "",
