@@ -1,0 +1,52 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "6201c285-eded-4237-bfe1-293d0d08d5c2",
+  "name": "trigger_maps",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Looks like a \npile of old maps.",
+          "Hmm... ",
+          "This one\nlooks different."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a75ec502-1d92-4f46-b87e-6ecf2f4b57b9"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4b0072d7-d1e3-45ac-a6c8-66c40ca9275f",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 1
+      },
+      "id": "27fd7c33-8bae-40e6-8e17-e5e2be8eda49"
+    }
+  ],
+  "leaveScript": []
+}

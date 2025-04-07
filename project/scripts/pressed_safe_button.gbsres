@@ -113,7 +113,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 4
+                  "value": 1
                 }
               },
               "__collapseElse": true
@@ -200,7 +200,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 3
+                  "value": 2
                 }
               },
               "__collapseElse": true
@@ -314,7 +314,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 2
+                  "value": 3
                 }
               },
               "__collapseElse": true
@@ -428,7 +428,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 1
+                  "value": 4
                 }
               },
               "__collapseElse": true
@@ -534,7 +534,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -588,6 +588,13 @@
                     "__collapse": true
                   },
                   "id": "887e1a7f-f049-4e62-9f34-4fc611252f52"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "88844443-29c5-4507-9e74-2a95d455ef70"
+                  },
+                  "id": "035a13d4-1aa1-4d67-ad7d-048d03881645"
                 }
               ],
               "false": [

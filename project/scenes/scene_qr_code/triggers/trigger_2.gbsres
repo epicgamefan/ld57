@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "ce65faa7-1a19-4fcf-8307-dd8a56092d4d",
+  "name": "",
+  "prefabId": "",
+  "x": 7,
+  "y": 6,
+  "symbol": "trigger_111",
+  "prefabScriptOverrides": {},
+  "width": 6,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "What a strange\nmap"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "eaba2fbf-82ba-4d2a-ac7b-a3bc5789e3b4"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}
