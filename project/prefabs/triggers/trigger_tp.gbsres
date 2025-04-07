@@ -7,9 +7,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Just your standard\nroll",
-          "of public \nbathroom single \nply sandpaper.",
-          "Cruel\nand unusual \npunishment."
+          "Just your standard\nroll of public",
+          "bathroom single \nply sandpaper.",
+          "Cruel and unusual \npunishment."
         ],
         "__section": "text",
         "avatarId": "",

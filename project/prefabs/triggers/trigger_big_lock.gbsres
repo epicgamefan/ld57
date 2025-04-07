@@ -7,9 +7,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Its a BIG LOCK",
-          "Only if I had a\nway to turn small\nkeys into",
-          "a BIG KEY..."
+          "It's a BIG LOCK.",
+          "Only if I had a\nway to turn small\nkeys into...",
+          "A BIG KEY."
         ],
         "__section": "text",
         "avatarId": "",

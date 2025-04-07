@@ -33,7 +33,7 @@
       "args": {
         "condition": {
           "type": "variable",
-          "value": "0"
+          "value": "25"
         },
         "__collapseElse": true
       },
@@ -44,7 +44,7 @@
             "args": {
               "condition": {
                 "type": "variable",
-                "value": "0"
+                "value": "21"
               },
               "__collapseElse": true
             },
@@ -55,7 +55,7 @@
                   "args": {
                     "condition": {
                       "type": "variable",
-                      "value": "0"
+                      "value": "10"
                     },
                     "__collapseElse": true
                   },
@@ -64,7 +64,10 @@
                       {
                         "command": "EVENT_TEXT",
                         "args": {
-                          "text": "",
+                          "text": [
+                            "You carefully\ninsert each key",
+                            "The vault opens..."
+                          ],
                           "__section": "text",
                           "avatarId": "",
                           "minHeight": 4,
@@ -88,7 +91,7 @@
                       {
                         "command": "EVENT_SET_VALUE",
                         "args": {
-                          "variable": "0",
+                          "variable": "28",
                           "value": {
                             "type": "true"
                           },
@@ -98,7 +101,9 @@
                       },
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
-                        "args": {},
+                        "args": {
+                          "customEventId": "2ec30d71-7f90-439c-97a4-31ee5abdc6c9"
+                        },
                         "id": "9fef13e5-3474-45c3-aa9f-904370e59c6c"
                       }
                     ],
@@ -119,7 +124,10 @@
     {
       "command": "EVENT_TEXT",
       "args": {
-        "text": "",
+        "text": [
+          "Too bad I don't\nhave 3 keys.",
+          "Maybe I should go \nback to \nfind 3 keys."
+        ],
         "__section": "text",
         "avatarId": "",
         "minHeight": 4,

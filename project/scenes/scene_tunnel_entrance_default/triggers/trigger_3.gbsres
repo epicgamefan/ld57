@@ -6,18 +6,7 @@
   "x": 13,
   "y": 3,
   "symbol": "trigger_59",
-  "prefabScriptOverrides": {
-    "213111d3-3721-4272-a780-3da7f01d84ab": {
-      "id": "213111d3-3721-4272-a780-3da7f01d84ab",
-      "args": {
-        "text": [
-          "It's a BIG LOCK.",
-          "Only if I had a\nway to turn small\nkeys into...",
-          "A BIG KEY."
-        ]
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "width": 4,
   "height": 3,
   "script": [],

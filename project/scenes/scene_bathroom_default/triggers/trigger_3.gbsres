@@ -6,18 +6,7 @@
   "x": 9,
   "y": 9,
   "symbol": "trigger_95",
-  "prefabScriptOverrides": {
-    "8fa6d4f7-392a-4b9a-bee2-1c42addac648": {
-      "id": "8fa6d4f7-392a-4b9a-bee2-1c42addac648",
-      "args": {
-        "text": [
-          "Just your standard\nroll of public",
-          "bathroom single \nply sandpaper.",
-          "Cruel and unusual \npunishment."
-        ]
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "width": 3,
   "height": 3,
   "script": [],
