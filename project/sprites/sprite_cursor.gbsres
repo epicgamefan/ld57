@@ -59,7 +59,7 @@
               "tiles": [
                 {
                   "id": "0298d824-bc1a-4805-86ab-76cbf68571cb",
-                  "x": 0,
+                  "x": -1,
                   "y": 0,
                   "sliceX": 24,
                   "sliceY": 0,
@@ -72,7 +72,7 @@
                 },
                 {
                   "id": "5020ecb1-60f6-4d26-b2a8-dcd9174f0e52",
-                  "x": 8,
+                  "x": 7,
                   "y": 0,
                   "sliceX": 16,
                   "sliceY": 0,
@@ -148,8 +148,8 @@
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 4,
-  "boundsY": 14,
-  "boundsWidth": 2,
-  "boundsHeight": 2,
+  "boundsY": 15,
+  "boundsWidth": 1,
+  "boundsHeight": 1,
   "animSpeed": 15
 }
