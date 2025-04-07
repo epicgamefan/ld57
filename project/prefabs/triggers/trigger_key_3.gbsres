@@ -1,7 +1,7 @@
 {
   "_resourceType": "triggerPrefab",
   "id": "455fc356-b4e1-4a36-a618-257da01a3380",
-  "name": "trigger_tbd_1",
+  "name": "trigger_key_3",
   "script": [
     {
       "command": "EVENT_IF",
@@ -21,7 +21,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "There is a TBD!",
+                "There is a Key!",
                 "You take it and \nshove it\ninto your pocket."
               ],
               "__section": "text",
@@ -59,7 +59,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The TBD that was\nhere is now\nin your pocket."
+                "The key that was\nhere is now\nin your pocket."
               ],
               "__section": "text",
               "avatarId": "",
