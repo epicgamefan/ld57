@@ -9,7 +9,8 @@
         "text": [
           "Its just a normal\nclock.",
           "Seems like it might\nbe broken.",
-          "Time seems to be \nstuck at \n02:58"
+          "Time seems to be \nstuck at \n",
+          "02:58"
         ],
         "__section": "text",
         "avatarId": "",
