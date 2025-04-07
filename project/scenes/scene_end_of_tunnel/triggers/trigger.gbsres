@@ -14,7 +14,20 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You escape up the\nladder."
+          "You escape up the\nladder.",
+          "When you emerge,\nthe world is\n",
+          "exactly how you\nremember it.",
+          "Its like time \nhas not changed.",
+          "Hmmm....",
+          "What kind of \npunishment was \nthis.",
+          "The rest of world\ndoesn't even know\nI was gone.",
+          "While I feel and\nremember\neverything.",
+          "This new outlook\nand knowledge...",
+          "Am I really\ngetting a",
+          "second chance...",
+          "...",
+          "...",
+          "The End..."
         ],
         "__section": "text",
         "avatarId": "",
