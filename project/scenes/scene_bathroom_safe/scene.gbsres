@@ -65,8 +65,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Its a keypad...",
-                "Its engraved\nwith some words \nand a symbol.",
+                "It's a keypad...",
+                "It's engraved\nwith some words \nand a symbol.",
                 "I wonder what\nhappened to the\nnumber 7."
               ],
               "__section": "text",

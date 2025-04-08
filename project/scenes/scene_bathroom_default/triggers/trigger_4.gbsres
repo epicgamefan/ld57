@@ -6,7 +6,18 @@
   "x": 2,
   "y": 1,
   "symbol": "trigger_96",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "9fe8c2df-eaf1-449f-9b71-ede85ee14e4e": {
+      "id": "9fe8c2df-eaf1-449f-9b71-ede85ee14e4e",
+      "args": {
+        "text": [
+          "Looking good...",
+          "Wow, still \nclean shaved.",
+          "Hmm.. Time to be\nnosy. What do they\nhave in here?"
+        ]
+      }
+    }
+  },
   "width": 3,
   "height": 4,
   "script": [],
