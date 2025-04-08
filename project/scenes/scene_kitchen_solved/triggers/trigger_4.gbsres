@@ -6,7 +6,19 @@
   "x": 8,
   "y": 1,
   "symbol": "trigger_57",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "db94fe18-80fd-49c3-b9a7-783ca2b16771": {
+      "id": "db94fe18-80fd-49c3-b9a7-783ca2b16771",
+      "args": {
+        "text": [
+          "It's just a normal\nclock.",
+          "Seems like it might\nbe broken.",
+          "Time seems to be \nstuck at \n",
+          "02:58"
+        ]
+      }
+    }
+  },
   "width": 3,
   "height": 3,
   "script": [],
