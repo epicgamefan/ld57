@@ -1,18 +1,20 @@
 {
-  "_resourceType": "triggerPrefab",
-  "id": "bcdaa0ae-608d-4ab1-be47-d7fb2710028a",
-  "name": "trigger_note_5",
+  "_resourceType": "trigger",
+  "id": "971c11f7-0267-4850-bb5f-1950c731ab4b",
+  "name": "",
+  "prefabId": "",
+  "x": 15,
+  "y": 10,
+  "symbol": "trigger_41",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Note 5 of 5",
-          "Day 8932:\nThis will be my\nfinal entry.",
-          "I've proven it.\nThe answer to life\nand everything.",
-          "I left all the\nclues and maps \nbehind you need.",
-          "Don't let them \nstop our plans.",
-          "§§§§§§§§§§§\n§§§§§§§§§§§\n§§§§§§§§§§§"
+          "I wonder if they\npaid extra for\none of those."
         ],
         "__section": "text",
         "avatarId": "",
@@ -31,8 +33,9 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "b8c1d184-19dc-4859-af88-2475391e62c2"
+      "id": "a7f7b925-752b-48e0-bdeb-ac34b7f85ab4"
     }
   ],
-  "leaveScript": []
+  "leaveScript": [],
+  "_index": 6
 }
