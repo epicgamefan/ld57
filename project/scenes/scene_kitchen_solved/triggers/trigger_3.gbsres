@@ -6,7 +6,24 @@
   "x": 10,
   "y": 15,
   "symbol": "trigger_54",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "60c893c0-f5db-4f49-8297-5e2371709d08": {
+      "id": "60c893c0-f5db-4f49-8297-5e2371709d08",
+      "args": {
+        "text": [
+          "A note with more\nof those symbols.",
+          "Note 3 of 5",
+          "Day 17: Hunger is\nnot a thing here. ",
+          "I haven't eaten in \ndays, but I'm not\nhungry or thirsty.",
+          "There is something\nspecial about this\nplace.",
+          "I'm curious to\nlearn its secrets.",
+          "It's like this \nplace is reversing",
+          "time instead of \ntaking it.",
+          "¥¥¥¥¥¥¥¥¥¥¥¥\n¥¥¥¥¥¥¥¥¥¥¥¥\n¥¥¥¥¥¥¥¥¥¥¥¥"
+        ]
+      }
+    }
+  },
   "width": 1,
   "height": 2,
   "script": [],
