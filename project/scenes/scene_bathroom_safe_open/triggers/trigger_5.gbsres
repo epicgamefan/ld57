@@ -6,7 +6,23 @@
   "x": 2,
   "y": 2,
   "symbol": "trigger_112",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "612fb8c8-d01e-40d3-8a93-1eabc003c094": {
+      "id": "612fb8c8-d01e-40d3-8a93-1eabc003c094",
+      "args": {
+        "text": [
+          "Another note. These\nsymbols are \nfamiliar.",
+          "Note 4 of 5",
+          "Day 263:  The room \nfinally showed the \nsymbols,",
+          "but it doesn't \nwant me \nto leave.",
+          "There is \ntoo much to learn.",
+          "I've decided to \ntake a break from\ncausing problems. ",
+          "I have new \nambitions in life.",
+          "¢¢¢¢¢¢¢¢¢¢¢\n¢¢¢¢¢¢¢¢¢¢¢\n¢¢¢¢¢¢¢¢¢¢¢"
+        ]
+      }
+    }
+  },
   "width": 3,
   "height": 2,
   "script": [],
