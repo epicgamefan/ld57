@@ -2,19 +2,19 @@
   "_resourceType": "scene",
   "id": "6f3d213a-fe32-4e26-a1cc-396f8382f7b4",
   "_index": 29,
-  "name": "scene_kitchen_solved_fridge_door_open",
-  "backgroundId": "4a2b6fad-45ce-4ad2-867f-16a5814de824",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "scene_kitchen_solved_fridge_door_open",
   "symbol": "scene_30",
   "x": 1080,
   "y": 400,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "4a2b6fad-45ce-4ad2-867f-16a5814de824",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -44,5 +44,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

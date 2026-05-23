@@ -2,19 +2,20 @@
   "_resourceType": "scene",
   "id": "9a16187c-3697-493c-accc-f60c6aa21978",
   "_index": 5,
-  "name": "scene_lockpad",
-  "backgroundId": "72a809c2-ce49-4701-962e-e214601cd48b",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "scene_lockpad",
   "symbol": "scene_6",
   "x": 60,
   "y": 392,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "72a809c2-ce49-4701-962e-e214601cd48b",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "eec7148c-229d-4032-910c-478d6d834a81",
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -110,5 +111,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "eec7148c-229d-4032-910c-478d6d834a81"
+  "collisions": ""
 }

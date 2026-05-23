@@ -2,19 +2,21 @@
   "_resourceType": "scene",
   "id": "bb50b8e1-b230-4632-9a2b-2d7856fe0543",
   "_index": 0,
-  "name": "scene_defendent",
-  "backgroundId": "15a1b596-b950-4f35-9b91-941980cbf4f9",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "scene_defendent",
   "symbol": "scene_1",
   "x": 496,
   "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "15a1b596-b950-4f35-9b91-941980cbf4f9",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "",
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -44,6 +46,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "",
-  "autoFadeEventCollapse": true
+  "collisions": ""
 }

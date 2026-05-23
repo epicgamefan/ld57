@@ -2,19 +2,19 @@
   "_resourceType": "scene",
   "id": "7a55ea99-388d-4398-85e7-9f10ebc74c10",
   "_index": 10,
-  "name": "scene_kitchen_freezer_door_open",
-  "backgroundId": "e3178be9-7eb3-4173-acbf-64d63318bb06",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "scene_kitchen_freezer_door_open",
   "symbol": "scene_11",
   "x": 888,
   "y": 400,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "e3178be9-7eb3-4173-acbf-64d63318bb06",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -44,5 +44,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

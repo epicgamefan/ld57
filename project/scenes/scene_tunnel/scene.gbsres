@@ -2,19 +2,19 @@
   "_resourceType": "scene",
   "id": "790477ef-8daf-4f4f-a985-b1c9701e185f",
   "_index": 7,
-  "name": "scene_tunnel",
-  "backgroundId": "a364de9a-0f57-4ec2-8758-22868805358b",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "scene_tunnel",
   "symbol": "scene_8",
   "x": 60,
   "y": 592,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "a364de9a-0f57-4ec2-8758-22868805358b",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -90,5 +90,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

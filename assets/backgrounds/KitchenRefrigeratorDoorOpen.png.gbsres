@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "de99658d-25a9-45f5-9e1d-866611887299",
+  "name": "KitchenRefrigeratorDoorOpen",
+  "symbol": "bg_kitchenrefrigeratordooro",
+  "tileColors": "",
+  "filename": "KitchenRefrigeratorDoorOpen.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

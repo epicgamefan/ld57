@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "44bb4b4f-e419-45a2-9258-c2ba9c52fa7e",
+  "name": "MirrorSafeKeypad",
+  "symbol": "bg_mirrorsafekeypad",
+  "tileColors": "",
+  "filename": "MirrorSafeKeypad.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

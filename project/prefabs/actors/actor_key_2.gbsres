@@ -5,11 +5,12 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "bd5af0bc-58a3-4b89-b230-a79f8590a73a",
+  "paletteId": "",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "script": [],
   "startScript": [
     {

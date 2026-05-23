@@ -2,19 +2,19 @@
   "_resourceType": "scene",
   "id": "16cdb9ea-fdf7-42dc-9b02-df08f3d6022e",
   "_index": 19,
-  "name": "scene_bathroom_mirror_open",
-  "backgroundId": "91c03a3b-cbd2-4961-8553-b338776298fe",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "scene_bathroom_mirror_open",
   "symbol": "scene_21",
   "x": 848,
   "y": 592,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "91c03a3b-cbd2-4961-8553-b338776298fe",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -26,5 +26,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3c53f590-dbf4-41bc-ba10-e4282aab3dac",
+  "name": "SafeRoom2SafeOpen",
+  "symbol": "bg_saferoom2safeopen",
+  "tileColors": "",
+  "filename": "SafeRoom2SafeOpen.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}
