@@ -6,7 +6,21 @@
   "x": 8,
   "y": 7,
   "symbol": "trigger_114",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "b8c1d184-19dc-4859-af88-2475391e62c2": {
+      "id": "b8c1d184-19dc-4859-af88-2475391e62c2",
+      "args": {
+        "text": [
+          "Note 5 of 5",
+          "Day 8932:\nThis will be my\nfinal ENTRY.",
+          "I've proven it.\nThe answer to life\nand everything.",
+          "I left all the\nclues and MAPS\nbehind you need.",
+          "Don't let them \nstop our plans.",
+          "§§§§§§§§§§§\n§§§§§§§§§§§\n§§§§§§§§§§§"
+        ]
+      }
+    }
+  },
   "width": 2,
   "height": 2,
   "script": [],

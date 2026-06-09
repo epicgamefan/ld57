@@ -49,9 +49,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "This tunnel looks\nlike a maze.",
-                "Looks like I can\nhead North, South\nEast or West.",
-                "Also I see\nan exit back to\nthe room."
+                "This TUNNEL looks\nlike a MAZE.",
+                "Looks like I can\nhead NORTH, SOUTH\nEAST, or WEST.",
+                "Also, I see\nan EXIT back to\nthe ROOM."
               ],
               "__section": "text",
               "avatarId": "",

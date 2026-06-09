@@ -6,7 +6,25 @@
   "x": 6,
   "y": 6,
   "symbol": "trigger_130",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "85e67679-a20a-4380-9e8b-8a862ab6254f": {
+      "id": "85e67679-a20a-4380-9e8b-8a862ab6254f",
+      "args": {
+        "text": [
+          "It looks like some\nsort of\nJOURNAL ENTRY",
+          "with some strange \nSYMBOLS at \nthe end...",
+          "Note 1 of 5",
+          "Day 1: This place\nwas clearly\noccupied before me.",
+          "It seems that I'm \nALONE in this ROOM.",
+          "No clues were left\nbehind to aid my \nescape.",
+          "Perhaps my JOURNAL\nENTRIES can help \nthe next person.",
+          "Assuming I find \na way out.",
+          "Everything is \nstrange here.\n",
+          "¤¤¤¤¤¤¤¤¤¤¤¤¤\n¤¤¤¤¤¤¤¤¤¤¤¤¤\n¤¤¤¤¤¤¤¤¤¤¤¤¤"
+        ]
+      }
+    }
+  },
   "width": 1,
   "height": 2,
   "script": [],
