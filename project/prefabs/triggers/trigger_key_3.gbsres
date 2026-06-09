@@ -21,7 +21,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "There is a Key!",
+                "There is a KEY!",
                 "You take it and \nshove it\ninto your pocket."
               ],
               "__section": "text",
@@ -59,7 +59,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The key that was\nhere is now\nin your pocket."
+                "The KEY that was\nhere is now\nin your pocket."
               ],
               "__section": "text",
               "avatarId": "",

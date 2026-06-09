@@ -96,7 +96,7 @@
                     "text": [
                       "Beep..",
                       "Click..",
-                      "The safe opens"
+                      "The SAFE opens"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -164,7 +164,7 @@
                   "args": {
                     "text": [
                       "Beep..",
-                      "Err.. Err.."
+                      "ERR.. ERR.."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -196,7 +196,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Beep.."
+                "BEEP.."
               ],
               "__section": "text",
               "avatarId": "",

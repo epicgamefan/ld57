@@ -32,7 +32,7 @@
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "18",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "a5d0c6a0-9d0d-43c7-858d-065e94a310fc"
     },
@@ -129,7 +129,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Zero..."
+                "ZERO..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -164,7 +164,7 @@
                   "value": 1
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -189,7 +189,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "One..."
+                "ONE..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -216,7 +216,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Two..."
+                "TWO..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -276,7 +276,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Three..."
+                "THREE..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -303,7 +303,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Four..."
+                "FOUR..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -330,7 +330,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Five..."
+                "FIVE..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -390,7 +390,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Six..."
+                "SIX..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -417,7 +417,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Seven..."
+                "SEVEN..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -444,7 +444,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Eight..."
+                "EIGHT..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -504,7 +504,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Nine..."
+                "NINE..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -581,7 +581,7 @@
             "value": 4
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
@@ -615,7 +615,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Click!\nIt's open..."
+                      "CLICK!\nIt's open..."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -650,7 +650,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Err.. Err.."
+                      "ERR.. ERR.."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -668,7 +668,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "a05c45e2-3c06-4fd2-a098-8b631de54f62"
                 },

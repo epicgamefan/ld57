@@ -17,6 +17,17 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 1,
+        "frequency": 300,
+        "duration": 0.02,
+        "effect": 0
+      },
+      "id": "e2ca22d0-697b-43d9-adea-153d0492b610"
+    },
+    {
       "command": "EVENT_MUSIC_STOP",
       "args": {
         "__collapse": true

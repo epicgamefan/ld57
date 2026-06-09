@@ -19,12 +19,12 @@
       "args": {
         "variable": "6",
         "choices": 5,
-        "__collapseCase0": true,
+        "__collapseCase0": false,
         "value0": {
           "type": "number",
           "value": 1
         },
-        "__collapseCase1": true,
+        "__collapseCase1": false,
         "value1": {
           "type": "number",
           "value": 2
@@ -109,9 +109,9 @@
             "args": {
               "text": [
                 "You have been\nbrought before",
-                "this tribunal\ntoday because of",
-                "your dissension\nagainst the",
-                "Council of the\nBrotherhood."
+                "this TRIBUNAL\ntoday because of",
+                "your DISSENSION\nagainst the",
+                "COUNCIL OF THE\nBROTHERHOOD."
               ],
               "__section": "text",
               "avatarId": "",
@@ -158,7 +158,7 @@
             "args": {
               "text": [
                 "From the\nperspective of the",
-                "Council of the\nBrotherhood..."
+                "COUNCIL OF THE\nBROTHERHOOD..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -204,7 +204,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "No due process\nwill be necessary."
+                "No DUE PROCESS\nwill be necessary."
               ],
               "__section": "text",
               "avatarId": "",
@@ -250,9 +250,9 @@
             "args": {
               "text": [
                 "You are hereby\nsentenced to be",
-                "banished to \nTHE\nDEPTH.",
+                "banished to the\nABYSS PRISON.",
                 "This inescapable\nchamber in the far",
-                "reaches of the\nEarth will be",
+                "reaches of the\nEARTH will be",
                 "your new \"home.\""
               ],
               "__section": "text",
@@ -298,12 +298,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The Good Doctor,\nMarvin Moreau,",
+                "The GOOD DOCTOR,\nMARVIN MOREAU,",
                 "will surely be\nhappy to learn of \nyour arrival.",
                 "He probably has\nnot seen another",
-                "human being for\nquite some time.",
-                "Enjoy your\n\"Retirement.\"",
-                "It will be a long\none..."
+                "HUMAN BEING for\nquite some time.",
+                "Enjoy your\nRETIREMENT.",
+                "It will be a long\none.",
+                "HA HA HA HA HA!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -326,11 +327,26 @@
             "id": "f788f966-470f-4b06-b03d-d04318cb066c"
           },
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "7593f505-f3d5-41f0-ba0b-29f43870cfa8"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
+              "sceneId": "9665bb8d-4505-454e-91da-57099b978eab",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
             },
-            "id": "c5426c86-0fa4-48bd-b48d-03c30b9e440a"
+            "id": "4f3a20e3-1ccf-4686-b953-4a6e1fe6940a"
           }
         ],
         "true5": [],

@@ -7,7 +7,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Looks like a \npile of old maps.",
+          "Looks like a \npile of old MAPS.",
           "Hmm... ",
           "This one\nlooks different."
         ],

@@ -31,7 +31,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "0c4e7086-5498-4851-8205-cb85dbff8a64"
     },
@@ -42,7 +42,7 @@
         "value": {
           "type": "false"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "85ce4af9-f05a-4134-b922-b136304e0778"
     },
@@ -65,8 +65,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "It's a keypad...",
-                "It's engraved\nwith some words \nand a symbol.",
+                "It's a KEYPAD...",
+                "It's engraved\nwith some words \nand a CLOCK.",
                 "I wonder what\nhappened to the\nnumber 7."
               ],
               "__section": "text",

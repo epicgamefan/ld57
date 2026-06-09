@@ -25,7 +25,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Beep..."
+          "BEEP..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -43,7 +43,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "44f5975f-1089-46a6-84c1-0a47cdd554d1"
     },
@@ -400,7 +400,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Err Err!",
+                      "ERR ERR!",
                       "Hmm. Nothing\nhappened."
                     ],
                     "__section": "text",
@@ -439,7 +439,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Click!",
+                      "CLICK!",
                       "It's unlocked!"
                     ],
                     "__section": "text",

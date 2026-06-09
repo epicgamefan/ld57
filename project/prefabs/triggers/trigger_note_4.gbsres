@@ -7,9 +7,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Another note, these\nsymbols are \nfamiliar.",
+          "Another note, these\nSYMBOLS are \nfamiliar.",
           "Note 4 of 5",
-          "Day 263:  The room \nfinally showed the \nsymbols,",
+          "Day 263:  The room \nfinally showed the \nSYMBOLS,",
           "but it doesn't \nwant me \nto leave, ",
           "there is \ntoo much to learn.",
           "I've decided to \ntake a break from\ncausing problems. ",

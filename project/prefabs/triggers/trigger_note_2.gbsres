@@ -7,12 +7,12 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "A note...\nAnd more strange\nsymbols.",
+          "A note...\nAnd more strange\nSYMBOLS.",
           "Note 2 of 5",
           "Day 3: Time appears \nto sit still\nin this room.",
           "No concept of \nday or night.",
-          "I thought the clock \nwas broken. This \nmay explain it.",
-          "I left a key in\nthe other drawer\nif you get bored.",
+          "I thought the CLOCK\nwas broken. This \nmay explain it.",
+          "I left a KEY in\nthe other drawer\nif you get bored.",
           "It should help\npass the time.",
           "¢¢¢¢¢¢¢¢¢¢¢\n¢¢¢¢¢¢¢¢¢¢¢\n¢¢¢¢¢¢¢¢¢¢¢"
         ],

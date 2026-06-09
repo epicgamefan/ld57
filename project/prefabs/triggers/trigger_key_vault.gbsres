@@ -65,7 +65,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "You carefully\ninsert each key",
+                            "You carefully\ninsert each KEY",
                             "The safe door\nopens..."
                           ],
                           "__section": "text",
@@ -125,8 +125,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Too bad I don't\nhave 3 keys.",
-          "Maybe I should go \nback to \nfind 3 keys."
+          "Too bad I don't\nhave 3 KEYS.",
+          "Maybe I should go \nback to \nfind 3 KEYS."
         ],
         "__section": "text",
         "avatarId": "",

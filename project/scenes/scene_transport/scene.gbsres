@@ -1,0 +1,83 @@
+{
+  "_resourceType": "scene",
+  "id": "9665bb8d-4505-454e-91da-57099b978eab",
+  "_index": 31,
+  "name": "scene_transport",
+  "backgroundId": "c3de6997-4d6b-4e64-9463-fe8db1fc4936",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_32",
+  "x": 992,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "03dae268-0bb9-4580-9ff5-82700b59739a"
+      },
+      "id": "2e82720a-1a8c-4670-981b-ddd18949e6c2"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "65ef8a45-682a-489b-bb4d-49e9cd91653c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The whole room\ngoes black as you\nare transported.",
+          "You descend into\nwhat is called the\nABYSS PRISON.",
+          "No one has ever\nbeen able to\nescape.",
+          "At least... Not\nALIVE."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2d506006-7f69-4f04-a7bf-c5a355be08cb"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "cb579d0f-6f4c-4688-862c-ebea5203ec37",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "cdb81965-7ba9-4937-8173-04a53ce56ba7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

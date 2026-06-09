@@ -7,7 +7,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Its just a normal\nclock.",
+          "Its just a normal\nCLOCK.",
           "Seems like it might\nbe broken.",
           "Time seems to be \nstuck at \n",
           "02:58"

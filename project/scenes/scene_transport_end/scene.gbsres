@@ -1,0 +1,82 @@
+{
+  "_resourceType": "scene",
+  "id": "cb579d0f-6f4c-4688-862c-ebea5203ec37",
+  "_index": 32,
+  "name": "scene_transport_end",
+  "backgroundId": "c3de6997-4d6b-4e64-9463-fe8db1fc4936",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_33",
+  "x": 1192,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "6be6ed91-e6f3-4c0f-9f1a-6f0b848743db"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "a90c05c4-e8df-4937-8c92-288eb2d98ef2"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "00c8d409-5b9a-4909-9728-4b36257c5fd2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The transport\ncomes to a stop.",
+          "You slowly open\nyour EYES..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2970ef60-e75b-4892-b45a-9793a771fd39"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6142405e-6aa0-4ba2-932a-d5c0ef1f63d6"
+      },
+      "id": "8705011b-af5a-41bd-899e-1ef7adb9b830"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

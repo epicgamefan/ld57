@@ -44,7 +44,7 @@
               "text": [
                 "What is this\nplace?",
                 "Was someone here\nbefore me?",
-                "I don't see any \none. I think I'm \nall alone."
+                "I don't see any \none. I think I'm \nall ALONE."
               ],
               "__section": "text",
               "avatarId": "",
@@ -76,6 +76,13 @@
               "__collapse": true
             },
             "id": "bf6f8bab-eba7-487b-9b98-45d1d1cd1cd9"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "43561bbe-cbaa-46fc-b77a-0566638a94a5"
+            },
+            "id": "fabb968e-07a8-47a0-adc6-c16b43a0232a"
           }
         ],
         "false": []

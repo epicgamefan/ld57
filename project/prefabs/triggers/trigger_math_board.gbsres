@@ -7,7 +7,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "The chalkboard is\ncovered in math\nformulas.",
+          "The CHALKBOARD is\ncovered in MATH\nFORMULAS.",
           "These don't\nlook like normal\nnumbers though."
         ],
         "__section": "text",

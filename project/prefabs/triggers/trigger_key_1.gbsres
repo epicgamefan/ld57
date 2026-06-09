@@ -21,7 +21,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "There is a Key!",
+                "There is a KEY!",
                 "You take it and \nshove it\nin your pocket."
               ],
               "__section": "text",
