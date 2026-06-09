@@ -35,7 +35,7 @@
             "value": "V0"
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
@@ -94,8 +94,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Beep..",
-                      "Click..",
+                      "BEEP..",
+                      "CLICK..",
                       "The SAFE opens"
                     ],
                     "__section": "text",
@@ -155,7 +155,7 @@
                       "type": "number",
                       "value": 0
                     },
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "48e15d1f-64fc-49d6-8560-58eb2ae42051"
                 },
@@ -163,7 +163,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Beep..",
+                      "BEEP..",
                       "ERR.. ERR.."
                     ],
                     "__section": "text",

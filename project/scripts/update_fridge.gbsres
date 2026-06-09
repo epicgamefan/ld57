@@ -25,7 +25,7 @@
         "value": {
           "type": "false"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "cd37e162-6d98-4059-97d3-4e1371bcd98e"
     },
@@ -33,7 +33,7 @@
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "16",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "8dbaca56-85b2-4e86-9f3d-b4f0e98305c3"
     },
@@ -150,7 +150,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Hmm... Frozen Peas"
+                      "Hmm... FROZEN PEAS"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -168,7 +168,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "cf13198e-8b4e-4de3-a36d-a657dae67b73"
                 },
@@ -213,7 +213,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Hmm... Eggs"
+                      "Hmm... EGGS"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -276,7 +276,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Hmm... Eggs"
+                      "Hmm... EGGS"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -339,7 +339,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Hmm... Milk"
+                      "Hmm... MILK"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -402,7 +402,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Hmm...\nFrozen Yogurt"
+                      "Hmm...\nFROZEN YOGURT"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -456,7 +456,7 @@
                   "value": 1
                 }
               },
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false
             },
             "children": {
@@ -465,9 +465,9 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Hmm...\nLeftover Pizza",
-                      "Click...\n",
-                      "A secret\ncompartment is\nrevealed."
+                      "Hmm...\nLEFTOVER PIZZA",
+                      "CLICK...\n",
+                      "A SECRET\nCOMPARTMENT is\nrevealed."
                     ],
                     "__section": "text",
                     "avatarId": "",

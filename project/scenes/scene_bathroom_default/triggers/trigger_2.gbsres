@@ -6,7 +6,21 @@
   "x": 15,
   "y": 6,
   "symbol": "trigger_94",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "605246a4-65a7-489f-8e72-6d380429ae52": {
+      "id": "605246a4-65a7-489f-8e72-6d380429ae52",
+      "args": {
+        "text": [
+          "Amazing what some\nread in the \nBATHROOM.",
+          "Hmm... This one \nPAGE is marked.",
+          "It looks like a\nrecipe.",
+          "1X FROZEN PEAS\n2X Chilled EGGS\n1X Chilled MILK",
+          "1X FROZEN YOGURT\n1X LEFTOVER PIZZA",
+          "Hmm... It looks\nlike the ORDER\nmatters."
+        ]
+      }
+    }
+  },
   "width": 3,
   "height": 3,
   "script": [],
