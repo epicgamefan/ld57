@@ -20,12 +20,12 @@
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
       "args": {
         "type": "tone",
-        "pitch": 1,
-        "frequency": 300,
+        "pitch": 4,
+        "frequency": 150,
         "duration": 0.02,
         "effect": 0
       },
-      "id": "e2ca22d0-697b-43d9-adea-153d0492b610"
+      "id": "c98b1355-6149-48df-8cfc-293bb4a52cbb"
     },
     {
       "command": "EVENT_MUSIC_STOP",
